@@ -1,0 +1,23 @@
+version: 1
+
+project:
+  title: "GeoJupyter Team Compass"
+  description: "Where community members new and old align on objectives and practices"
+  github: "https://github.com/geojupyter/team-compass"
+  license: "MIT"
+  exclude:
+    - "_*"
+    - "README.md"
+
+site:
+  template: "book-theme"
+  nav: []
+  actions:
+    - title: "View source"
+      url: "https://github.com/geojupyter/team-compass"
+  options:
+    folders: true
+    style: "assets/styles/style.css"
+    # favicon: favicon.ico
+    # logo: site_logo.png
+    logo_text: "GeoJupyter Team Compass"
