@@ -16,6 +16,8 @@ We use the following communication technologies:
 * For scheduling:
   * Google Calendar (see the
     [GeoJupyter community calendar](https://geojupyter.org/calendar))
+* For prioritization:
+  * [GitHub Projects](https://github.com/orgs/geojupyter/projects)
 
 
 ## Quality
