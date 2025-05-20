@@ -13,4 +13,4 @@ build:
     build:
       html:
         - "myst build --strict --html"
-        - "mv ./_build/html ${READTHEDOCS_OUTPUT}/."  
+        - "mv ./_build/html ${READTHEDOCS_OUTPUT}/."
