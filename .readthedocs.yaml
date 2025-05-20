@@ -13,6 +13,7 @@ build:
     build:
       html:
         - "myst build --strict --html"
-        - "mkdir --parents $READTHEDOCS_OUTPUT/html/"
-        - "mv ./_build/html/* ${READTHEDOCS_OUTPUT}/html/."
+        - "mkdir --parents $READTHEDOCS_OUTPUT"
+        - "mv ./_build/html ${READTHEDOCS_OUTPUT}/."
+        - "ls -la ${READTHEDOCS_OUTPUT}/html"
         - "rm -rf _build"  # RTD build fails if _build/html is detected :(
