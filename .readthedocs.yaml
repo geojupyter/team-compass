@@ -1,0 +1,16 @@
+# For this project, we use ReadTheDocs only for Pull Request previews. GitHub
+# pages currently hosts the actual website.
+version: 2
+
+
+build:
+  os: "ubuntu-lts-latest"
+  tools:
+    nodejs: "22"
+  jobs:
+    post_install:
+      - "npm install -g mystmd"
+    build:
+      html:
+        - "mystmd build --strict --html"
+        - "mv ./_build/html ${READTHEDOCS_OUTPUT}/."  
