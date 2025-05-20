@@ -13,4 +13,5 @@ build:
     build:
       html:
         - "myst build --strict --html"
-        - "mv ./_build/html ${READTHEDOCS_OUTPUT}/."
+        - "mkdir --parents $READTHEDOCS_OUTPUT/html/"
+        - "mv ./_build/html/* ${READTHEDOCS_OUTPUT}/html/."
