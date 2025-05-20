@@ -17,12 +17,12 @@ practices, and happenings.**
 
 For example, you can find:
 
-* [Team members](/team/index.md) (TODO)
-* [Recognition and celebrations](/team/recognition.md) (TODO)
+* [Team members](team/index.md) (TODO)
+* [Recognition and celebrations](team/recognition.md) (TODO)
 * Meeting notes (TODO; for now, look
   [here](https://geojupyter.org/blog/#category=Meeting%20notes))
-* [Coding practices](/policies/coding/index.md) (TODO)
-* [Communication practices](/policies/communication/index.md) (TODO)
+* [Coding practices](policies/coding/index.md) (TODO)
+* [Communication practices](policies/communication/index.md) (TODO)
 
 
 ## 📑 Code of conduct
