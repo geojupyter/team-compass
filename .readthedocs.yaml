@@ -12,5 +12,5 @@ build:
       - "npm install -g mystmd"
     build:
       html:
-        - "mystmd build --strict --html"
+        - "myst build --strict --html"
         - "mv ./_build/html ${READTHEDOCS_OUTPUT}/."  
