@@ -22,7 +22,7 @@ For example, you can find:
 * Meeting notes (TODO; for now, look
   [here](https://geojupyter.org/blog/#category=Meeting%20notes))
 * [Coding practices](policies/coding.md) (TODO)
-* [Communication practices](policies/communication/index.md) (TODO)
+* [Communication practices](policies/communication.md)
 
 
 ## 📑 Code of conduct
