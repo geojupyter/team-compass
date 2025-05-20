@@ -13,6 +13,9 @@ We use the following communication technologies:
 * For video/audio communication:
   * Zoom
   * Google Meet
+* For scheduling:
+  * Google Calendar (see the
+    [GeoJupyter community calendar](https://geojupyter.org/calendar))
 
 
 ## Quality
