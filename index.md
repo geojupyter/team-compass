@@ -5,7 +5,7 @@ title: "GeoJupyter Team Compass"
 Welcome to the [GeoJupyter](https://geojupyter.org) Team Compass!
 
 
-## ✨ If you're new to contributing to GeoJupyter, start [here](contributing/new.md).
+## ✨ If you're new to contributing to GeoJupyter, start [here](contributing/01-new.md).
 
 We're excited to work with you!
 
