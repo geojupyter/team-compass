@@ -12,6 +12,8 @@ A _Hackathon Facilitator_ might perform any of the following tasks:
 * Organizing participants' ideas into a reasonable number of tasks
 * Forming small teams in breakout rooms
 * Keeping the group updated on time constraints
+* Run automations to create and sync notetaking documents
+* Take notes
 * Contribute to our [Hackathon facilitation guide](https://geojupyter.org/handbook/hackathon-facilitation.html)
 
 
