@@ -21,7 +21,7 @@ For example, you can find:
 * [Recognition and celebrations](team/recognition.md) (TODO)
 * Meeting notes (TODO; for now, look
   [here](https://geojupyter.org/blog/#category=Meeting%20notes))
-* [Coding practices](policies/coding.md) (TODO)
+* [Coding practices](policies/coding.md)
 * [Communication practices](policies/communication.md)
 
 
