@@ -10,7 +10,7 @@ provide feedback to the development process.
 A _Use Case Lead_ might perform any of the following tasks:
 
 * Clearly define a use case
-* Collaborate with users to 
+* Collaborate with users to
 * Author blog posts on the [GeoJupyter blog](https://geojupyter.org/blog) regarding
   their use case
 * Comment on issues related to their use case
