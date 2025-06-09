@@ -24,4 +24,4 @@ If you like hackathons and are excited to help make them productive and fun,
 
 Please join the [GeoJupyter Zulip channel](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter)
 and ping Matt Fisher to express your interested.
-We'll get your use case documented and add you to the team page.
+We'll get you added to the team page.
