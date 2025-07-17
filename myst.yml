@@ -5,9 +5,14 @@ project:
   description: "Where community members new and old align on objectives and practices"
   github: "https://github.com/geojupyter/team-compass"
   license: "MIT"
+  plugins:
+    - type: "executable"
+      path: "plugin/listing.py"
   exclude:
     - "_*"
     - "README.md"
+    # These are rendered via the listing plugin
+    - "meeting-notes/*"
 
 site:
   template: "book-theme"
