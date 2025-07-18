@@ -28,12 +28,12 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / What’s your favorite type of cuisine?
 
-* Matt Fisher / @mfisher87 / Schmidt DSE / Chinese! Love dumplings or potstickers.
-* Martin Renou / @martinRenou / QuantStack /
-* Jamie Polackwich / @rjpolackwich / Bluestaq LLC / Chex Mix
-* Arjun Verma / @arjxn-py / QuantStack / Biryani
-* Chuck Daniels / @chuckwondo / Development Seed / Pizza
-* Pete Gadomski / @gadomski / Development Seed / Snacks while trail running (:warning: I need to bounce at 0855 mountain)
+* Matt Fisher / \@mfisher87 / Schmidt DSE / Chinese! Love dumplings or potstickers.
+* Martin Renou / \@martinRenou / QuantStack /
+* Jamie Polackwich / \@rjpolackwich / Bluestaq LLC / Chex Mix
+* Arjun Verma / \@arjxn-py / QuantStack / Biryani
+* Chuck Daniels / \@chuckwondo / Development Seed / Pizza
+* Pete Gadomski / \@gadomski / Development Seed / Snacks while trail running (:warning: I need to bounce at 0855 mountain)
 
 
 ## Agenda & notes

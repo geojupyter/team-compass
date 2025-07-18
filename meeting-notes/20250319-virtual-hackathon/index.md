@@ -28,11 +28,11 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / what content (tv, book, course, youtube series, ...) are you enjoying lately?
 
-* Kristin Davis / @kpdavi / Schmidst DSE / Alone Australia
-* Matt Fisher / @mfisher87 / Schmidt DSE / Severance!
-* Yao-Ting Yao / @YaoTingYao / ClarkCGA / rewatch game of thrones
-* Martin Renou / @martinRenou / QuantStack / Elden Ring!
-* Arjun Verma / @arjxn-py / QuantStack / The Office :D
+* Kristin Davis / \@kpdavi / Schmidst DSE / Alone Australia
+* Matt Fisher / \@mfisher87 / Schmidt DSE / Severance!
+* Yao-Ting Yao / \@YaoTingYao / ClarkCGA / rewatch game of thrones
+* Martin Renou / \@martinRenou / QuantStack / Elden Ring!
+* Arjun Verma / \@arjxn-py / QuantStack / The Office :D
 
 
 ## Agenda & notes

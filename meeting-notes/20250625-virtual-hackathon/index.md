@@ -28,10 +28,10 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Kristin Davis / @kpdavi  / Schmidt DSE
-* Martin Renou / @martinRenou / QuantStack
-* Matt Fisher / @mfisher87 / Schmidt DSE
-* Kirstie Whitaker / @KirstieJAne / Berkeley Institute for Data Science
+* Kristin Davis / \@kpdavi  / Schmidt DSE
+* Martin Renou / \@martinRenou / QuantStack
+* Matt Fisher / \@mfisher87 / Schmidt DSE
+* Kirstie Whitaker / \@KirstieJAne / Berkeley Institute for Data Science
 
 
 ## Agenda & notes

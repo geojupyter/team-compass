@@ -28,13 +28,13 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / favorite breakfast food?
 
-* Matt Fisher / @mfisher87 / DSE / bacon!!!
-* Tammy Woodard / @tawoodard / ClarkCGA / leftovers
-* Aman Ahuja / @amanahuja / Fenris / bfast burrito
-* Greg Mooney / @gjmooney / QuantStack / yogurt
-* Jon Marokhovsky / @jmarokhovsky / ClarkCGA / corned beef hash
-* Sanjay Bhangar / @batpad / Development Seed / biscuits and gravy
-* Kristin Davis / @kpdavi / DSE / breakfast potatoes
+* Matt Fisher / \@mfisher87 / DSE / bacon!!!
+* Tammy Woodard / \@tawoodard / ClarkCGA / leftovers
+* Aman Ahuja / \@amanahuja / Fenris / bfast burrito
+* Greg Mooney / \@gjmooney / QuantStack / yogurt
+* Jon Marokhovsky / \@jmarokhovsky / ClarkCGA / corned beef hash
+* Sanjay Bhangar / \@batpad / Development Seed / biscuits and gravy
+* Kristin Davis / \@kpdavi / DSE / breakfast potatoes
 
 
 ## Agenda & notes

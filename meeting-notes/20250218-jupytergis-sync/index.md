@@ -35,30 +35,22 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Martin RENOU / @martinRenou / QuantStack
-* Matt Fisher / @mfisher87 / DSE
-* Nicolas Brichet / @brichet / QuantStack
-* Arjun Verma / @arjxn-py / QuantStack
-* Nick Gondek / @gondeknp / DSE
-* Meriem Ben Ismail / @Meriem-BenIsmail / QuantStack
+* Martin RENOU / \@martinRenou / QuantStack
+* Matt Fisher / \@mfisher87 / DSE
+* Nicolas Brichet / \@brichet / QuantStack
+* Arjun Verma / \@arjxn-py / QuantStack
+* Nick Gondek / \@gondeknp / DSE
+* Meriem Ben Ismail / \@Meriem-BenIsmail / QuantStack
 
 
 ## News
 
 * QuantStack slowing down. Mostly Arjun now!
 * JupyterGIS 0.4.0 is out! :tada:
-* Going to post a JupyterGIS announcement soon. https://medium.com/@martinRenou/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6
+* Going to post a JupyterGIS announcement soon. <https://medium.com/@martinRenou/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6>
 
 
 ## Status reports
 
 * Arjun: Configuring UI tests for lite deployment of JCad. Will port to JGIS.
     * Should the Lite deployment point to latest stable release instead of `main`?
-*
-*
-
-## Requests for help
-
-* Help request
-* Help request
-* Help request

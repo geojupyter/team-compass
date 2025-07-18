@@ -28,11 +28,11 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / what do you plan to do when taking a break today?
 
-* Arjun Verma / @arjxn-py / QuantStack / Spend time with my niece
-* Nicolas Brichet / @brichet / QuantStack / ?
-* Martin Renou / @martinRenou / QuantStack / Did some tidying in the shed
-* Matt Fisher / @mfisher87 / Schmidt DSE / pull some weeds in my garden! :seedling:
-* Tyler Erickson / @tylere / VorGeo / shopping at Trader Joes
+* Arjun Verma / \@arjxn-py / QuantStack / Spend time with my niece
+* Nicolas Brichet / \@brichet / QuantStack / ?
+* Martin Renou / \@martinRenou / QuantStack / Did some tidying in the shed
+* Matt Fisher / \@mfisher87 / Schmidt DSE / pull some weeds in my garden! :seedling:
+* Tyler Erickson / \@tylere / VorGeo / shopping at Trader Joes
 
 
 ### Standing items

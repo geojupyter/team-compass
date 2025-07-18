@@ -29,12 +29,12 @@ Please add new agenda items under the `New agenda items` heading!
 Your name / GitHub ID / affiliation / If you could master any skill immediately, what would it be?
 
 * Name / GitHub ID / affiliation / ?
-* Matt Fisher / @mfisher87 / SchmidtDSE / electric organ
+* Matt Fisher / \@mfisher87 / SchmidtDSE / electric organ
 * Tammy Woodard / tawoodard / ClarkCGA / Albanian, Spanish, German
 * Yao-Ting Yao / YaoTingYao / ClarkCGA / spanish
-* Arjun Verma / @arjxn-py / QuantStack / Type while talking
-* Martin Renou / @martinRenou / QuantStack / Piano
-* Jamie Polackwich / @rjpolackwich / Bluestaq / saxophone
+* Arjun Verma / \@arjxn-py / QuantStack / Type while talking
+* Martin Renou / \@martinRenou / QuantStack / Piano
+* Jamie Polackwich / \@rjpolackwich / Bluestaq / saxophone
 
 
 ## Agenda & notes

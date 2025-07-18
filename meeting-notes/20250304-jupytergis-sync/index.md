@@ -34,10 +34,10 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Matt / @mfisher87 / Schmidt DSE
-* Greg / @gjmooney / QuantStack
-* Martin / @martinRenou / QuantStack
-* Arjun / @arjxn-py / QuantStack
+* Matt / \@mfisher87 / Schmidt DSE
+* Greg / \@gjmooney / QuantStack
+* Martin / \@martinRenou / QuantStack
+* Arjun / \@arjxn-py / QuantStack
 
 
 ## Status reports

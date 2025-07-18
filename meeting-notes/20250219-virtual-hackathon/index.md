@@ -31,8 +31,8 @@ Your name / GitHub ID / affiliation / What’s your favorite way to waste time?
 * Martin Renou / martinRenou / QuantStack / I don't have a favorite way to waste time, but I hate wasting time on social media
 * Kristin Davis / kpdavi / Schmidt DSE / Playing Stardew Valley
 * Yao-Ting Yao / YaoTingYao / ClarkCGA / Watch Youtube
-* Jon Marokhovsky / @jmarokhovsky / ClarkCGA / Playing Rocket League
-* Matt Fisher / @mfisher87 / Schmidt DSE / Playing with my dogs! Emulating Super Nintendo games :)
+* Jon Marokhovsky / \@jmarokhovsky / ClarkCGA / Playing Rocket League
+* Matt Fisher / \@mfisher87 / Schmidt DSE / Playing with my dogs! Emulating Super Nintendo games :)
 
 
 

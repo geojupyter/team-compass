@@ -28,10 +28,10 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / favorite flavor of ice cream (or other dessert)?
 
-* Nicolas Brichet / @brichet / QuantStack / ?
+* Nicolas Brichet / \@brichet / QuantStack / ?
 * Fernando / GitHub ID / affiliation / ?
-* Matt Fisher / @mfisher87 / DSE / adzuki bean (red bean)
-* Greg Mooney / @gjmooney / QuantStack / Cookie Dough
+* Matt Fisher / \@mfisher87 / DSE / adzuki bean (red bean)
+* Greg Mooney / \@gjmooney / QuantStack / Cookie Dough
 
 
 

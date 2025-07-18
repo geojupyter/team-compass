@@ -28,10 +28,10 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / What toppings are on your ideal pizza?
 
-* Sanjay Bhangar / @batpad / Development Seed / Pepperoni
-* Arjun Verma / @arjxn-py / QuantStack / Cheese & Corn
-* Kristin Davis / @kpdavi / DSE / ricotta + spinach + balsamic vinegar
-* Martin Renou / @martinRenou / QuantStack / A good mozzarella
+* Sanjay Bhangar / \@batpad / Development Seed / Pepperoni
+* Arjun Verma / \@arjxn-py / QuantStack / Cheese & Corn
+* Kristin Davis / \@kpdavi / DSE / ricotta + spinach + balsamic vinegar
+* Martin Renou / \@martinRenou / QuantStack / A good mozzarella
 
 
 ## Agenda & notes

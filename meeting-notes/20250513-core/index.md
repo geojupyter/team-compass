@@ -28,12 +28,12 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Kevin Koy / @kevkoy / Schmidt DSE
-* Matt Fisher / @mfisher87 / Schmidt DSE
-* Nicolas Brichet / @brichet / QuantStack
-* Arjun Verma / @arjxn-py / QuantStack
-* Anne Fouilloux /@annefou / Simula
-* Ciera Martinez / @iamciera / Schmidt DSE
+* Kevin Koy / \@kevkoy / Schmidt DSE
+* Matt Fisher / \@mfisher87 / Schmidt DSE
+* Nicolas Brichet / \@brichet / QuantStack
+* Arjun Verma / \@arjxn-py / QuantStack
+* Anne Fouilloux / \@annefou / Simula
+* Ciera Martinez / \@iamciera / Schmidt DSE
 
 
 ### Standing items

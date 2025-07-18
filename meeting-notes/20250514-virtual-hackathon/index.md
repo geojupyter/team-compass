@@ -28,11 +28,11 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / What are you drinking this morning/evening?
 
-* Sanjay Bhangar / @batpad / Development Seed / Chai
-* Matt Fisher / @mfisher87 / Schmidt DSE / Raspberry lemonade!
-* Arjun Verma / @arjxn-py / QuantStack / Lemonade
-* Kristin Davis / @kpdavi / DSE / Regular coffee (booring but works =])
-* Felipe Montealegre-Mora / @felimomo / DSE / Specialty coffee from Finca Mora >:) learning how to properly pour over!
+* Sanjay Bhangar / \@batpad / Development Seed / Chai
+* Matt Fisher / \@mfisher87 / Schmidt DSE / Raspberry lemonade!
+* Arjun Verma / \@arjxn-py / QuantStack / Lemonade
+* Kristin Davis / \@kpdavi / DSE / Regular coffee (booring but works =])
+* Felipe Montealegre-Mora / \@felimomo / DSE / Specialty coffee from Finca Mora >:) learning how to properly pour over!
 
 
 ## Agenda & notes
