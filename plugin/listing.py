@@ -60,8 +60,8 @@ def aggregate_posts() -> list[dict]:
         # Summarize content
         skip_lines = ["#", "--", "%", "++"]
         content = "\n".join(ii for ii in content.splitlines() if not any(ii.startswith(char) for char in skip_lines))
-        N_WORDS = 50
-        words = " ".join(content.split(" ")[:N_WORDS])
+        NUM_WORDS = 50
+        words = " ".join(content.split(" ")[:NUM_WORDS])
         if not "author" in meta or not meta["author"]:
             meta["author"] = "TODO: Get from myst.yml"
         meta["content"] = meta.get("description", words)
