@@ -6,8 +6,8 @@ import argparse
 import json
 import sys
 from pathlib import Path
-import pandas as pd
 
+import pandas as pd
 from yaml import safe_load
 from feedgen.feed import FeedGenerator
 
