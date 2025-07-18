@@ -11,8 +11,25 @@ project:
   exclude:
     - "_*"
     - "README.md"
-    # These are rendered via the listing plugin
-    - "meeting-notes/*"
+  toc:
+    - file: "index.md"
+    - file: "projects.md"
+    - file: "meeting-notes.md"
+      children:
+        - pattern: "meeting-notes/**/*.md"
+          hidden: true
+    - title: "Contributing"
+      children:
+        - pattern: "contributing/*.md"
+    - title: "Policies"
+      children:
+        - pattern: "policies/*.md"
+    - title: "Roles"
+      children:
+        - pattern: "roles/*.md"
+    - title: "Team"
+      children:
+        - pattern: "team/*.md"
 
 site:
   template: "book-theme"
