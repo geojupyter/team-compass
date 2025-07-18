@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # With many thanks, based on work by Chris Holdgraf
-#   https://github.com/choldgraf/choldgraf.github.io/blob/main/src/blogpost.py
+#   https://github.com/choldgraf/choldgraf.github.io/blob/35f2a24818ec73304a9769153796a952c0ec2561/src/blogpost.py
 
 import argparse
 import json
@@ -8,11 +8,12 @@ import sys
 from pathlib import Path
 
 import pandas as pd
-from yaml import safe_load
 from feedgen.feed import FeedGenerator
+from yaml import safe_load
 
 ROOT = Path(__file__).parent.parent
 LISTING_DIR = ROOT / "meeting-notes"
+SUMMARY_WORDS = 50
 
 DEFAULTS = {"number": 10}
 PLUGIN_SPEC = {
@@ -26,9 +27,9 @@ PLUGIN_SPEC = {
                 "number": {
                     "type": "int",
                     "doc": "The number of posts to include",
-                }
+                },
             },
-        }
+        },
     ],
 }
 
@@ -59,10 +60,13 @@ def aggregate_posts() -> list[dict]:
 
         # Summarize content
         skip_lines = ["#", "--", "%", "++"]
-        content = "\n".join(ii for ii in content.splitlines() if not any(ii.startswith(char) for char in skip_lines))
-        NUM_WORDS = 50
-        words = " ".join(content.split(" ")[:NUM_WORDS])
-        if not "author" in meta or not meta["author"]:
+        content = "\n".join(
+            ii
+            for ii in content.splitlines()
+            if not any(ii.startswith(char) for char in skip_lines)
+        )
+        words = " ".join(content.split(" ")[:SUMMARY_WORDS])
+        if "author" not in meta or not meta["author"]:
             meta["author"] = "TODO: Get from myst.yml"
         meta["content"] = meta.get("description", words)
         posts.append(meta)
@@ -78,41 +82,32 @@ def aggregate_posts() -> list[dict]:
 
 
 def cards_from_posts(posts, /) -> list[dict]:
-
     def ast_text(value, **kwargs):
         return {"type": "text", "value": value, **kwargs}
-
 
     def ast_strong(children, **kwargs):
         return {"type": "strong", "children": children, **kwargs}
 
-
     cards = []
-    for ix, irow in posts.iterrows():
+    for _, irow in posts.iterrows():
         cards.append(
             {
-              "type": "card",
-              "url": f"/{irow['path'].with_suffix('')}",
-              "children": [
-                {
-                  "type": "cardTitle",
-                  "children": [ast_text(irow["title"])]
-                },
-                {
-                  "type": "paragraph",
-                  "children": [ast_text(irow['content'])]
-                },
-                {
-                  "type": "footer",
-                  "children": [
-                      ast_strong([ast_text("Date: ")]),
-                      ast_text(f"{irow['date']:%B %d, %Y} | "),
-                      ast_strong([ast_text("Author: ")]),
-                      ast_text(f"{irow['author'][0]['name']}"),
-                  ]
-                },
-              ]
-            }
+                "type": "card",
+                "url": f"/{irow['path'].with_suffix('')}",
+                "children": [
+                    {"type": "cardTitle", "children": [ast_text(irow["title"])]},
+                    {"type": "paragraph", "children": [ast_text(irow["content"])]},
+                    {
+                        "type": "footer",
+                        "children": [
+                            ast_strong([ast_text("Date: ")]),
+                            ast_text(f"{irow['date']:%B %d, %Y} | "),
+                            ast_strong([ast_text("Author: ")]),
+                            ast_text(f"{irow['author'][0]['name']}"),
+                        ],
+                    },
+                ],
+            },
         )
     return cards
 
@@ -126,10 +121,12 @@ def write_feeds(*, posts) -> None:
 
     fg.id(base_url)
     fg.title("TODO: Get title from myst.yaml")
-    fg.author({
-        "name": "TODO: Get author from individual posts",
-        "email": "TODO: Get email from individual posts",
-    })
+    fg.author(
+        {
+            "name": "TODO: Get author from individual posts",
+            "email": "TODO: Get email from individual posts",
+        },
+    )
     fg.link(href=base_url, rel="alternate")
     fg.logo("TODO: Get logo from myst.yaml")
     fg.subtitle("TODO: Get description from myst.yaml")
@@ -139,7 +136,7 @@ def write_feeds(*, posts) -> None:
     fg.language("en")
 
     # Add all posts
-    for ix, irow in posts.iterrows():
+    for _, irow in posts.iterrows():
         fe = fg.add_entry()
         fe.id(f"{base_url}/{irow['path']}")
         fe.published(irow["date"])
