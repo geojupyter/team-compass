@@ -192,9 +192,6 @@ if __name__ == "__main__":
     group.add_argument("--transform")
     args = parser.parse_args()
 
-    debug_out = Path("/tmp/plugin_out")
-    debug_out.write_text(str(args))
-
     if args.directive:
         run_directive(args.directive)
     elif args.transform:
