@@ -15,7 +15,7 @@ ROOT = Path(__file__).parent.parent
 LISTING_DIR = ROOT / "meeting-notes"
 SUMMARY_WORDS = 50
 
-DEFAULTS = {"number": 10}
+DEFAULTS = {"number": 0}
 PLUGIN_SPEC = {
     "name": "A document listing",
     "directives": [
@@ -26,7 +26,7 @@ PLUGIN_SPEC = {
             "options": {
                 "number": {
                     "type": "int",
-                    "doc": "The number of posts to include",
+                    "doc": "The number of posts to include (default: 0, or all posts)",
                 },
             },
         },
@@ -177,7 +177,7 @@ def run_directive(name, /) -> None:
 
     cards = cards_from_posts(posts)
     number = int(opts.get("number", DEFAULTS["number"]))
-    output = cards[:number]
+    output = cards if number == 0 else cards[:number]
     print_result(output)
 
 
