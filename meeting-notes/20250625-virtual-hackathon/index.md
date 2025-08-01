@@ -1,5 +1,5 @@
 ---
-title: "GeoJupyter virtual hackathon 2025-06-25"
+title: "GeoJupyter virtual hackathon"
 description: |
   A GeoJupyter virtual hackathon. Open to all!
 date: "2025-06-25"
@@ -11,7 +11,7 @@ categories:
 tags: [hackathons]
 ---
 
-# GeoJupyter virtual hackathon 2025-06-25
+# GeoJupyter virtual hackathon (2025-06-25)
 
 Please add new agenda items under the `New agenda items` heading!
 

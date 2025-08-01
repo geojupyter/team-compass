@@ -1,5 +1,5 @@
 ---
-title: "JupyterGIS sync meeting 2025-06-17"
+title: "JupyterGIS sync meeting"
 description: |
   A weekly gathering of JupyterGIS team to discuss our progress and help each other out.
   Open to all, but this meeting is _short_ and task-focused, so there will not be time
@@ -21,7 +21,7 @@ tags: [jupytergis-notes]
 > to meet the team and add your own agenda items, and/or
 > [introduce yourself on  Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Welcome)!
 
-# JupyterGIS sync meeting 2025-06-17
+# JupyterGIS sync meeting (2025-06-17)
 
 Please add new agenda items under the `New agenda items` heading!
 
