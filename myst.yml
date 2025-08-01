@@ -8,6 +8,7 @@ project:
   plugins:
     - type: "executable"
       path: "plugin/listing.py"
+    - "https://raw.githubusercontent.com/mfisher87/mystmd-plugin-emoji-shortcodes/refs/heads/main/emoji-shortcodes.mjs"
   exclude:
     - "_*"
     - "README.md"
