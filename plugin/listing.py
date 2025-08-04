@@ -93,7 +93,7 @@ def cards_from_posts(posts, /) -> list[dict]:
         cards.append(
             {
                 "type": "card",
-                "url": f"/{irow['path'].with_suffix('')}",
+                "url": f"{irow['path'].with_suffix('')}",
                 "children": [
                     {"type": "cardTitle", "children": [ast_text(irow["title"])]},
                     {"type": "paragraph", "children": [ast_text(irow["content"])]},
@@ -170,6 +170,7 @@ def run_directive(name, /) -> None:
     assert name == "listing"
 
     data = json.load(sys.stdin)
+
     opts = data["node"].get("options", {})
 
     posts = aggregate_posts()
