@@ -1,3 +1,5 @@
+# Feed files
+*.xml
 
 # pixi environments
 .pixi
