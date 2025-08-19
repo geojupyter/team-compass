@@ -18,7 +18,9 @@ project:
     - file: "meeting-notes.md"
       children:
         - pattern: "meeting-notes/**/*.md"
-          hidden: true
+          # Hidden pages are not rendered right now :( Revert when
+          # <https://github.com/jupyter-book/mystmd/pull/2194> is merged
+          # hidden: true
     - title: "Contributing"
       children:
         - pattern: "contributing/*.md"
