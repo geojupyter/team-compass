@@ -17,7 +17,7 @@ Please add new agenda items under the `New agenda items` heading!
 
 - [Join us on Zoom](https://berkeley.zoom.us/j/99659397059?pwd=519zZJlcAa1TCyJWRYyYbaYDfuaXNo.1)
   - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=3pm)
-- [Previous meetings](https://geojupyter.org/blog/#category=Meeting%20notes)
+- [Previous meetings](https://compass.geojupyter.org/meeting-notes/)
 - [GeoJupyter](https://geojupyter.org) handy links:
   - [GitHub org](https://github.com/geojupyter)
   - [Community calendar](https://geojupyter.org/calendar.html)
