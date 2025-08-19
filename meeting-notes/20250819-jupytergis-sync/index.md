@@ -52,7 +52,6 @@ Your name / GitHub ID / affiliation
 
 * Matt: Hackathon!
     * Lots of PRs need review.
-    * 
 * Matt: Moved meeting notes
     * geojupyter.org -> compass.geojupyter.org
     * Some things may look slightly weird, but it's fine MyST has open PRs :)
@@ -62,12 +61,4 @@ Your name / GitHub ID / affiliation
     * Attribute table #860
     * VectorTile -> GeoJSON #854?
 * Matt: "What is JupyterGIS?"
-    * Governance discussion on Sept. 9
-* 
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+    * Governance discussion on Sept. 9?
