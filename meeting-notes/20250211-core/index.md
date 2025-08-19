@@ -89,7 +89,7 @@ Your name / GitHub ID / affiliation / When you take a break, what's your favorit
 
 ### New agenda items
 
-- [ ] [Hackathon debrief](https://geojupyter.org/blog/20250205-virtual-hackathon/)
+- [ ] [Hackathon debrief](https://compass.geojupyter.org/meeting-notes/20250205-virtual-hackathon/)
     - So much fun :D Thanks to all who attended!
     - Please spread the word to help keep the momentum going :)
     - Next in 1 week from tomorrow, Feb 19.

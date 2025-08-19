@@ -4,7 +4,7 @@ description: |
   A weekly gathering of JupyterGIS team to discuss our progress and help each other out.
   Open to all, but this meeting is _short_ and task-focused, so there will not be time
   for introductions. Please join a core meeting!
-date: "{{ date.strftime('%Y-%m-%d') }}"
+date: "2025-08-19"
 image: "../images/standup.jpg"
 author:
   - name: "The GeoJupyter community"
@@ -21,22 +21,21 @@ tags: [jupytergis-notes]
 > to meet the team and add your own agenda items, and/or
 > [introduce yourself on  Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Welcome)!
 
-# JupyterGIS sync meeting ({{ date.strftime("%Y-%m-%d") }})
+# JupyterGIS sync meeting (2025-08-19)
 
 Please add new agenda items under the `New agenda items` heading!
 
 - [Join us on Google Meet](https://meet.google.com/zhk-vygf-gke)
   - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=3pm)
-- [Previous meetings](https://compass.geojupyter.org/meeting-notes/)
+- [Previous meetings](https://geojupyter.org/blog/#category=JupyterGIS%20notes)
 
 
 ## Attendees
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Arjun Verma / @arjxn-py / QuantStack
+* Matt Fisher / @mfisher87 / DSE
 
 
 ## Agenda
@@ -51,13 +50,15 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* Matt: Hackathon!
+    * Lots of PRs need review.
+* Matt: Moved meeting notes
+    * geojupyter.org -> compass.geojupyter.org
+    * Some things may look slightly weird, but it's fine MyST has open PRs :)
+* Arjun: Many PRs! Need review:
+    * Legends!
+    * "Back-n-forth" #877
+    * Attribute table #860
+    * VectorTile -> GeoJSON #854?
+* Matt: "What is JupyterGIS?"
+    * Governance discussion on Sept. 9?
