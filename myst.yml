@@ -5,9 +5,47 @@ project:
   description: "Where community members new and old align on objectives and practices"
   github: "https://github.com/geojupyter/team-compass"
   license: "MIT"
+  plugins:
+    - type: "executable"
+      path: "plugin/listing.py"
+    - "https://raw.githubusercontent.com/mfisher87/mystmd-plugin-emoji-shortcodes/refs/heads/main/emoji-shortcodes.mjs"
   exclude:
     - "_*"
     - "README.md"
+  toc:
+    - file: "index.md"
+    - file: "projects.md"
+    - file: "meeting-notes.md"
+      children:
+        - pattern: "meeting-notes/**/*.md"
+          # Hidden pages are not rendered right now :( Revert when
+          # <https://github.com/jupyter-book/mystmd/pull/2194> is merged
+          # hidden: true
+    - title: "Contributing"
+      children:
+        - pattern: "contributing/*.md"
+    - title: "Policies"
+      children:
+        - pattern: "policies/*.md"
+    - title: "Roles"
+      children:
+        - pattern: "roles/*.md"
+    - title: "Team"
+      children:
+        - pattern: "team/*.md"
+  error_rules:
+    - rule: "link-resolves"
+      key: "https://lps25.esa.int/"
+      severity: "warn"
+    - rule: "link-resolves"
+      key: "https://lps25.esa.int/programme/programme-session/?id=B97391AC-F0D6-4C3D-B38C-FB69AA1219D6"
+      severity: "warn"
+    - rule: "link-resolves"
+      key: "https://2025.geopython.net/"
+      severity: "warn"
+    - rule: "link-resolves"
+      key: "https://github.com/geojupyter/jupytergis-tiler/blob/main/examples/xarray.ipynb"
+      severity: "warn"
 
 site:
   template: "book-theme"

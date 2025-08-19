@@ -23,7 +23,7 @@ If you don't mind, please introduce yourself in our
 
 ## What project(s) are you interested in?
 
-View our [Projects](../00-projects.md) page to see our community's works in progress.
+View our [Projects](../projects.md) page to see our community's works in progress.
 
 Every project has its own documentation, and we strive to include a high-quality
 contributor guide that will help you get up and running.
