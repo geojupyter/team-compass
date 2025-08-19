@@ -34,9 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Arjun Verma / @arjxn-py / QuantStack
+* Matt Fisher / @mfisher87 / DSE
 
 
 ## Agenda
@@ -51,9 +50,20 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* Matt: Hackathon!
+    * Lots of PRs need review.
+    * 
+* Matt: Moved meeting notes
+    * geojupyter.org -> compass.geojupyter.org
+    * Some things may look slightly weird, but it's fine MyST has open PRs :)
+* Arjun: Many PRs! Need review:
+    * Legends!
+    * "Back-n-forth" #877
+    * Attribute table #860
+    * VectorTile -> GeoJSON #854?
+* Matt: "What is JupyterGIS?"
+    * Governance discussion on Sept. 9
+* 
 
 
 ### Requests for help or feedback
