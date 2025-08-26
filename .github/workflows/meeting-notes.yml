@@ -49,7 +49,11 @@ jobs:
       pr_body: |
         Meeting notes initialized at ${env.hackmd_doc_url}.
 
-        After the meeting, sync the notes from HackMD to this PR by commenting "/bot please sync notes"
+        After the meeting, sync the notes from HackMD to this PR by commenting:
+
+        ```
+        /bot please sync notes
+        ```
     secrets:
       HACKMD_TOKEN: "${{ secrets.HACKMD_TOKEN }}"
 
