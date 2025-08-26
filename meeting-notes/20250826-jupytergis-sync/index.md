@@ -47,7 +47,7 @@ Your name / GitHub ID / affiliation
   * Are there things we can change about the project board to make it more useful? Add
     more information? Remove steps?
 * _Please add more items if you have them!_
-* 
+*
 
 
 ### Status reports
