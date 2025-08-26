@@ -33,6 +33,7 @@ project:
     - title: "Team"
       children:
         - pattern: "team/*.md"
+
   error_rules:
     - rule: "link-resolves"
       key: "https://lps25.esa.int/"
@@ -42,6 +43,9 @@ project:
       severity: "warn"
     - rule: "link-resolves"
       key: "https://2025.geopython.net/"
+      severity: "warn"
+    - rule: "link-resolves"
+      key: "https://csdms.colorado.edu/wiki/ESPIn2025"
       severity: "warn"
     - rule: "link-resolves"
       key: "https://github.com/geojupyter/jupytergis-tiler/blob/main/examples/xarray.ipynb"
