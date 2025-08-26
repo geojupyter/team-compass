@@ -51,7 +51,7 @@ jobs:
 
         After the meeting, sync the notes from HackMD to this PR by commenting:
 
-        ```  
+        ```
         /bot please sync notes
         ```
     secrets:
