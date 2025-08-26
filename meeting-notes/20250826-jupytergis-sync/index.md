@@ -47,17 +47,25 @@ Your name / GitHub ID / affiliation
   * Are there things we can change about the project board to make it more useful? Add
     more information? Remove steps?
 * _Please add more items if you have them!_
+* 
 
 
 ### Status reports
 
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* Matt: Reviewing LOTS of PRs
+* QuantStack: Discussing ESA "Call for Ideas".
+* Matt: TODO - Review https://github.com/geojupyter/jupytergis/pull/880
+* Arjun: Vector Legends PR by Arjun https://github.com/geojupyter/jupytergis/pull/880
+* Arjun: Auto-focus the identify tab once your start identifying by Arjun https://github.com/geojupyter/jupytergis/pull/900
+    * **Matt: Review**!
+* Arjun: Add settings for disabling some features (in progress) https://github.com/geojupyter/jupytergis/pull/898
+* Should we ask contributors to disclose use of LLMs? Let's wait until we're getting too many PRs and need to use it in prioritization decisions.
+* Rework panels?
+    * One panel that changes based on context? E.g. when identifying, switch panel. Previous button to return to where you were before. Clicking a layer in the list switches to object properties.
+        * Identify could become a button on the layer, next to the eyeball button?
+        * Annotation could become a mode in the toolbar like identify
+        * Object properties could become a right-click context menu button.
+        * Should there be a "home" button that always goes to the layer menu? Or use a "layers" icon (see Google maps lower left)
+    * Multiple panel modes? Single panel mode, double panel mode, 0 panel mode?
+    * Home button could be https://fontawesome.com/icons/layer-group?f=classic&s=solid in the top-left corner to come back to the layer list
+* Skipped reviewing project board for today -- let's do it next week!
