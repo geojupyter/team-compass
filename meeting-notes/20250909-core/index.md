@@ -44,17 +44,17 @@ Your name / GitHub ID / affiliation
         - Excited to have interns @ DSE
         - Collaborative vibes w/ QuantStack team
         - QuantStack adding Matt as maintainer of jupyterlite-sphinx :heart: Matt wants to find more ways to contribute to the ecosystem
-        - 
-        - 
+        -
+        -
         - /
     - Areas for improvement?
         - Community could be more active on specific needs. E.g. understanding the interchange format problem. Working groups could help?
         - Roadmap -- where is JGIS going? When should users check back to see if their use case is implemented? How do they track progress? (GitHub projects board is useful internally, but IMO not externally)
         - Funding!
-        - 
-        - 
-        - 
-        - 
+        -
+        -
+        -
+        -
         - /
 
 
