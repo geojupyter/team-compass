@@ -28,10 +28,10 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Shane Grigsby / espg / Astera Institute
-* Martin Renou / martinRenou / QuantStack
-* Nicolas Brichet / @brichet / QuantStack
-* Matt Fisher / @mfisher87 / affiliation
+* Shane Grigsby / `@espg` / Astera Institute
+* Martin Renou / `@martinRenou` / QuantStack
+* Nicolas Brichet / `@brichet` / QuantStack
+* Matt Fisher / `@mfisher87` / affiliation
 
 
 ### Standing items

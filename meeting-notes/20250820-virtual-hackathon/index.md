@@ -28,8 +28,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / icebreaker
 
-* Matt Fisher / @mfisher87 / DSE
-* Gus Becker / @gusbusdraws / CU Boulder
+* Matt Fisher / `@mfisher87` / DSE
+* Gus Becker / `@gusbusdraws` / CU Boulder
 
 
 ## Agenda & notes
