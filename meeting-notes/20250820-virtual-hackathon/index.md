@@ -28,10 +28,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / icebreaker
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Matt Fisher / @mfisher87 / DSE
+* Gus Becker / @gusbusdraws / CU Boulder
 
 
 ## Agenda & notes
@@ -61,7 +59,11 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
+* New user story (Gus will open issue)
+    - Open fresh document
+    - Snapshots along the way producing static images in cells (`doc.snapshot()`?)
+    - Using `doc.sidecar()` for exploration
+    - Save final document as artifact (`doc.save()`?)
 * Idea 2
 * Idea 3
 
