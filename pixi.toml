@@ -10,7 +10,7 @@ render = "myst build --strict --html"
 preview = "myst start"
 
 [dependencies]
-mystmd = ">=1.6.0,<2"
+mystmd = ">=1.6.2,<2"
 pandas = ">=2.3.1,<3"
 pyyaml = ">=6.0.2,<7"
 feedgen = ">=1.0.0,<2"
