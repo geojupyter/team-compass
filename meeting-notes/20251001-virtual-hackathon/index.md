@@ -26,12 +26,11 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Sign in!
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Yao-Ting / `@YaoTingYao` / CGA
+* Nakul Verma / `@nakul-py` / independent
+* Matt / `@mfisher87` / Schmidt DSE
 
 
 ## Agenda & notes
@@ -61,21 +60,7 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
-* Idea 2
-* Idea 3
-
-
-### 🪄 (all the minutes) Hack together!
-
-Form teams from the ideas generated in the step above!
-
-
-#### Breakout rooms
-
-* Lobby: ?
-* Room 1: ?
-* ...
+* Support divergent color ramps: https://github.com/geojupyter/jupytergis/pull/912
 
 
 ### 💬 (10 minutes) Share out
@@ -87,6 +72,10 @@ Big questions? Big ideas?
 
 Please write for people who don’t have full context; link to related issues and documentation!
 
-* Share out 1
-* Share out 2
-* ...
+* Divergent color ramps:
+    * Improve CSS for displaying disabled min/max input fields
+    * Improve label of "Use actual range" button -- include the data min/max in the label! Thanks, Yao-Ting!
+    * Minor refactors for readability (extract named boolean, leave props packed in object called `props`)
+    * Only render min/max controls for graduated & singleband symbology modes
+    * Fixup critical value display to use selected min/max, remove hardcode
+    * WIP: Fixup saving/loading min/max/reverse from the shared model. Previously, these values were only "saved" in the downstream classified color stops, and when re-opening the UI they'd reset to default. Now, they save into the shared document, but they don't successfully load from the shared document (yet!). Pushed a WIP commit.
