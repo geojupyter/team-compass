@@ -5,9 +5,12 @@ name = "team-compass"
 platforms = ["linux-64", "osx-64", "win-64"]
 version = "0.1.0"
 
-[tasks]
-render = "myst build --strict --html"
-preview = "myst start"
+[tasks.render]
+cmd = "myst build --strict --html --keep-host"
+env = {HOST = "0.0.0.0"}
+
+[tasks.preview]
+cmd = "myst start"
 
 [dependencies]
 mystmd = ">=1.6.2,<2"
