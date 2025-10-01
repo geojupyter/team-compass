@@ -6,7 +6,7 @@ platforms = ["linux-64", "osx-64", "win-64"]
 version = "0.1.0"
 
 [tasks.render]
-cmd = "myst build --strict --html --keep-host"
+cmd = "myst build --html --strict"
 env = {HOST = "0.0.0.0"}
 
 [tasks.preview]
