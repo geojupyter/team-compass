@@ -3,6 +3,7 @@ name: "Build and deploy to GitHub Pages"
 on:
   push:
     branches: ["main"]
+  pull_request:
   workflow_dispatch:
 
 
@@ -22,6 +23,8 @@ jobs:
       - uses: "prefix-dev/setup-pixi@v0.8.8"
 
       - run: "pixi run render"
+
+      - run: "cat /etc/hosts"
 
       - name: "Upload site artifact"
         uses: "actions/upload-pages-artifact@v3"
