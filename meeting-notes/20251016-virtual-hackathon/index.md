@@ -28,11 +28,9 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / icebreaker
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-
+* Matt / `@mfisher87` / DSE
+* Stefan / `@stefanv` / BIDS
+* Maryam / `@Mary-h86` / BIDS
 
 ## Agenda & notes
 
@@ -61,21 +59,12 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
-* Idea 2
-* Idea 3
+* Brainstorm new, well-scoped use cases for Jupyter users analyzing geo data
 
 
 ### 🪄 (all the minutes) Hack together!
 
 Form teams from the ideas generated in the step above!
-
-
-#### Breakout rooms
-
-* Lobby: ?
-* Room 1: ?
-* ...
 
 
 ### 💬 (10 minutes) Share out
@@ -87,6 +76,21 @@ Big questions? Big ideas?
 
 Please write for people who don’t have full context; link to related issues and documentation!
 
-* Share out 1
-* Share out 2
-* ...
+* **A Jupyter Widget which enables viewing many Python data objects together on a map as layers with a simple, well-typed, well-documented API**
+  * `some_package.explore(da1, da2, gdf1, {data: gdf2, symbology: {"choropleth": {steps: 11, classification: "natural"}})`
+  * Support rioxarray DataArrays  
+  * Support geopandas GeoDataFrames  
+  * Maybe: Support WMTS?  
+  * Support some curated default symbology options  
+    * Choropleth: # steps, classification mode, ?  
+    * Symbol map: shape, min/max size, size variable, color variable
+    * Dot density: …  
+    * Cartogram: Maybe?  
+  * Support some symbology customization  
+    * Each symbology option provides   
+  * Use a Jupyter Server extension to tile raster data under the covers, e.g. [rioxarray DataArray \-\> TiTiler](https://developmentseed.org/titiler/packages/xarray/)  
+  * Send vector data to the renderer as binary (geoarrow)  
+  * Future integration (developed as an independent component): Support a data discovery interface which can help the user find other data they want to integrate with their Notebook analysis  
+    * Plain language search  
+    * Produce Python one-liners to bring that dataset into their notebook, e.g. `geopandas.read_file(...)` and `xarray.open_mfdataset(...)`  
+  * Display the data on slippy map widget (e.g. DeckGL)
