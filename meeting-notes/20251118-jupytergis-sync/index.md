@@ -34,10 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-
+* Martin / `@martinRenou` / QuantStack
+* Matt / `@mfisher87` / affiliation
 
 ## Agenda
 
@@ -51,13 +49,16 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* STAC
+    * DSE interns:
+        * Develop a generic set of components in parallel to the QuantStack catalog-specific components. Display generic components or specific components depending on selected catalog.
+            * Should the catalog selector dialog use Widget or React component?
+        * New QuantStack catalog: hydroweb
+* Commands w/ arguments (Arjun)
+    * Provides the ability for LLMs to interact with the shared document, e.g. allow the LLM to create a layer directly without UI interaction
+    * PR: https://github.com/geojupyter/jupytergis/pull/969
+* Greg storymaps
+    * Demo
+    * Reusing Marker functionality for landmarks
+    * Landmarks are layers technically, but for the user they're different things
+    * Scroll through the story? "Scrollytelling" experience.
