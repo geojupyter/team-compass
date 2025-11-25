@@ -37,7 +37,7 @@ Your name / GitHub ID / affiliation
 * Name / GitHub ID / affiliation
 * Martin Renou / `@martinRenou` / QuantStack
 * Matt / `@mfisher87` / SchmidtDSE
-* 
+*
 
 
 ## Agenda
@@ -56,7 +56,7 @@ Your name / GitHub ID / affiliation
 * STAC
     * https://github.com/developmentseed/stac-react
         * Can we build on this? DevSeed would be excited to collab on this!
-        * 
+        *
     * No longer pursuing hydroweb, the data files are not cloud optimized
     * CNES wants QuantStack to choose another catalog
     * Matt: Let's use Earth Search? Sentinel-2, Landsat, NAIP, Copernicus
