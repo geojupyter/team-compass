@@ -35,8 +35,9 @@ Please add new agenda items under the `New agenda items` heading!
 Your name / GitHub ID / affiliation
 
 * Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Martin Renou / `@martinRenou` / QuantStack
+* Matt / `@mfisher87` / SchmidtDSE
+* 
 
 
 ## Agenda
@@ -51,9 +52,16 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* NPM attacks! Again! Hooray! This is fine!
+* STAC
+    * https://github.com/developmentseed/stac-react
+        * Can we build on this? DevSeed would be excited to collab on this!
+        * 
+    * No longer pursuing hydroweb, the data files are not cloud optimized
+    * CNES wants QuantStack to choose another catalog
+    * Matt: Let's use Earth Search? Sentinel-2, Landsat, NAIP, Copernicus
+    * Can we use a JSDoc string to explicitly list all the extensions our components support?
+* Proxy: doesn't work in JupyterLite? (affects STAC browser)
 
 
 ### Requests for help or feedback
