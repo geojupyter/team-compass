@@ -53,7 +53,7 @@ Your name / GitHub ID / affiliation
 
 * STAC
     * New catalog will be Copernicus: https://browser.stac.dataspace.copernicus.eu/search?.language=en
-    * Our STAC Browser may not be the right name. We can call the interface for selecting a catalog a "STAC Browser" and the interface for interacting with the selected catalog could be called something like "STAC Search"
+    * Our STAC Browser may not have the right name. We can call the interface for selecting a catalog a "STAC Browser" and the interface for interacting with the selected catalog could be called something like "STAC Search"
     * Radiant Earth's STAC Browser https://radiantearth.github.io/stac-browser/
 * TanstackQuery: We should investigate this!
 * Switch to pnpm:
@@ -64,11 +64,3 @@ Your name / GitHub ID / affiliation
 * Hatchling upgrade causing build failures
     * https://github.com/geojupyter/jupytergis/pull/1010
     * Do we need both an upper bound _and_ to switch to `python -m build`? Martin finding out!
-    * 
-
-
-### Requests for help or feedback
-
-* 
-* 
-* 
