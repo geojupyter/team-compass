@@ -34,9 +34,9 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Greg Mooney / `@gjmooney` / QuantStack
+* Martin Renou / `@martinRenou` / QuantStack
+* Matt Fisher / `@mfisher87` / Schmidt DSE
 
 
 ## Agenda
@@ -51,13 +51,24 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* STAC
+    * New catalog will be Copernicus: https://browser.stac.dataspace.copernicus.eu/search?.language=en
+    * Our STAC Browser may not be the right name. We can call the interface for selecting a catalog a "STAC Browser" and the interface for interacting with the selected catalog could be called something like "STAC Search"
+    * Radiant Earth's STAC Browser https://radiantearth.github.io/stac-browser/
+* TanstackQuery: We should investigate this!
+* Switch to pnpm:
+    * Remove yarn.lock, replace with pnpm lock
+    * Search and replace jlpm -> pnpm
+    * Lerna config updates: learna.json sets npm client to jlpm
+    * Matt can invest time in this in the new year
+* Hatchling upgrade causing build failures
+    * https://github.com/geojupyter/jupytergis/pull/1010
+    * Do we need both an upper bound _and_ to switch to `python -m build`? Martin finding out!
+    * 
 
 
 ### Requests for help or feedback
 
-* Help request
-* Help request
-* Help request
+* 
+* 
+* 
