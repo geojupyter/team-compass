@@ -57,7 +57,7 @@ Your name / GitHub ID / affiliation
         - Interns working on generic STAC interface. Should have progress by Feb 15, but it may not be fully releasable at that time (?); more of a base for some finishing touches like additional filters to help users navigate large catalogs.
     - Strategy:
         - How do we support making the architecture more robust?
-        - Path to more funding and capacity: More people and orgs using JGIS as a daily driver, a critical dependeny
+        - Path to more funding and capacity: More people and orgs using JGIS as a daily driver, a critical dependency
         - What's stopping people from using JupyterGIS as a daily driver?
             - Bugs or features?
         - Path to getting new daily driver users?
