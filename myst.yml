@@ -46,6 +46,8 @@ site:
   template: "book-theme"
   nav: []
   actions:
+    - title: "GeoJupyter home"
+      url: "https://geojupyter.org"
     - title: "View source"
       url: "https://github.com/geojupyter/team-compass"
   options:
