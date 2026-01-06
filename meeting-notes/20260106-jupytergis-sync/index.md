@@ -34,9 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Matt / `@mfisher87`
+* Martin / `@martinrenou`
 
 
 ## Agenda
@@ -51,9 +50,28 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* Matt: Something like JupyterGIS-tiler but not coupled with JupyterGIS. I.e. `jupyter-xarray-tiler` component anyone can use to tile xarray datasets and display them in any map thingy
+    * Martin: Add as dependency of and integrate with ipyleaflet!
+    * Martin: Don't bind to titler? E.g. `jupyter-xarray-tiler[titiler]` / `jupyter-xarray-tiler[xpublish]`
+        * Or even further, not only bound to xarray? What about geoparquet data? GeoDataFrames?
+        * See: <https://www.linkedin.com/posts/kanahiro-iguchi_foss4g-duckdb-ugcPost-7403315764348280834-8y5R/?utm_source=share&utm_medium=member_android&rcm=ACoAAA7c8FABpLSJeNgcYB0C36JOi9aLGMOZzQg> The associated tool https://github.com/Kanahiro/yosegi
+    * See <https://github.com/xarray-contrib/xarray_leaflet>
+* QuantStack expects significantly more time for JupyterGIS coming soon! Not sure exactly when yet, likely this year :)
+* Strategy meeting with Matt, Martin, Fernando, Sylvain, Matthias!
+
+
+
+### Action items:
+
+* Martin: Send Matt Matthias' email
+* Matt: Email David, Martin, Sylvain, Matthias about meeting to discuss a component for Jupyter to dynamically tile geospatial datasets in Python objects. (i.e. JupyterGIS-tiler but independent)
+* Matt: Schedule strategy meeting with Matt, Martin, Fernando, Sylvain, Matthias!
+
+
+### For next week
+
+* STAC browser
+* GSOC?
 
 
 ### Requests for help or feedback
