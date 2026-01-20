@@ -50,14 +50,7 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* [Anymap-ts](https://github.com/opengeos/anymap-ts): Anymap but TypeScript!
+* [anymap-ts](https://github.com/opengeos/anymap-ts): anymap but TypeScript!
 * Meeting fix! Set it to "open". Hopefully no zoom-bombers :)
 * QGIS system install support PR:
     * Martin: Envvar approach sounds like a good middle ground!
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
