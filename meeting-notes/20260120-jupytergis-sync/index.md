@@ -34,9 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Matt Fisher / `@mfisher87` / Schmidt DSE
+* Martin Renou / `@martinRenou` / QuantStack
 
 
 ## Agenda
@@ -51,9 +50,10 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* [Anymap-ts](https://github.com/opengeos/anymap-ts): Anymap but TypeScript!
+* Meeting fix! Set it to "open". Hopefully no zoom-bombers :)
+* QGIS system install support PR:
+    * Martin: Envvar approach sounds like a good middle ground!
 
 
 ### Requests for help or feedback
