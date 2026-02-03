@@ -55,7 +55,7 @@ Your name / GitHub ID / affiliation
     - `jupyter-xarray-tiler` is just glue between jupyter-server-proxy, titiler (and eventually other backends like xpublish-tiles), and a mapping front-end. It's aimed at authors of map viz libraries for Jupyter, not end-users.
     - Martin: What about other formats than Xarray? Zarr?
         - Matt: Have been thinking about GeoDataFrames as well. Should we bundle that in the same library? :thinking_face: Maybe? I don't know. In any case I'm totally fine with changing the name if we go that route :)
-        - Matt: xpublish-tiles supports Zarr. But not TiTiler AFAIK. There's a  few options now for directly visualizing Zarr from OpenLayers (e.g. https://github.com/NOC-OI/zarr-maps) as well. Do we need a solution like this for Zarr? :thinking_face: 
+        - Matt: xpublish-tiles supports Zarr. But not TiTiler AFAIK. There's a  few options now for directly visualizing Zarr from OpenLayers (e.g. https://github.com/NOC-OI/zarr-maps) as well. Do we need a solution like this for Zarr? :thinking_face:
 - mambajs: Generate notebook.link lockfiles from CLI!
     - https://pypi.org/project/mambajs/
     - Previously needed to be done from the notebook.link web UI, now we can build it in to our automated tooling.
