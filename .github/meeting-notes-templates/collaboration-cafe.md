@@ -1,23 +1,23 @@
 ---
-title: "GeoJupyter virtual hackathon"
+title: "GeoJupyter Collaboration Café"
 description: |
-  A GeoJupyter virtual hackathon. Open to all!
+  A GeoJupyter event for technical, social, design, and other collaboration.
+  Open to all!
 date: "{{ date.strftime('%Y-%m-%d') }}"
-image: "../images/hackathon.jpg"
 author:
   - name: "The GeoJupyter community"
 categories:
-  - "Hackathons"
-tags: [hackathons]
+  - "Collaboration Cafes"
+tags: ["collaboration-cafes"]
 ---
 
-# GeoJupyter virtual hackathon ({{ date.strftime("%Y-%m-%d") }})
+# GeoJupyter Collaboration Café ({{ date.strftime("%Y-%m-%d") }})
 
 Please add new agenda items under the `New agenda items` heading!
 
 - [Join us on Zoom](https://berkeley.zoom.us/j/92451699568)
   - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=2pm)
-- [Notes from previous hackathons](https://compass.geojupyter.org/meeting-notes/)
+- [Notes from previous cafés](https://compass.geojupyter.org/meeting-notes/)
 - [GeoJupyter](https://geojupyter.org) handy links:
   - [GitHub org](https://github.com/geojupyter)
   - [Community calendar](https://geojupyter.org/calendar.html)
@@ -48,7 +48,7 @@ Post on Zulip to request a show & tell slot;
 by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 
-### 💡 (5 minutes) What will we hack on?
+### 💡 (5 minutes) What will we work on?
 
 * **What do you want to work on today**?
   * For ideas, check out the [hackathon](https://github.com/geojupyter/jupytergis/labels/hackathon)
@@ -66,7 +66,7 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 * Idea 3
 
 
-### 🪄 (all the minutes) Hack together!
+### 🪄 (all the minutes) Work together!
 
 Form teams from the ideas generated in the step above!
 
