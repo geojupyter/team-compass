@@ -28,10 +28,9 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / icebreaker
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Matt Fisher / `@mfisher87` / Schmidt DSE
+* Benjamin (Benny) Szeghy / `@benjaminszeghy` / UC Berkeley
+* Esha Potharaju / @e5ha / UC Berkeley
 
 
 ## Agenda & notes
@@ -61,32 +60,10 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
-* Idea 2
-* Idea 3
+* Onboarding new interns!
+    * jupyter-xarray-tiler overview -- why it exists, how it works
 
 
 ### 🪄 (all the minutes) Work together!
 
 Form teams from the ideas generated in the step above!
-
-
-#### Breakout rooms
-
-* Lobby: ?
-* Room 1: ?
-* ...
-
-
-### 💬 (10 minutes) Share out
-
-Think about:
-What exciting things did you accomplish?
-What loose ends remain?
-Big questions? Big ideas?
-
-Please write for people who don’t have full context; link to related issues and documentation!
-
-* Share out 1
-* Share out 2
-* ...
