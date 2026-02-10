@@ -44,6 +44,6 @@ Your name / GitHub ID / affiliation / icebreaker
         - Esha & Benny: Will try some other approaches together tomorrow!
     - Demo
 - [ ] More clear onramps for new community members
-    - Common quesiton: "I want to get involved, but I don't know where to start!"
+    - Common question: "I want to get involved, but I don't know where to start!"
     - How can we better surface startable issues for new community members?
     - How can we better direct folks to this location :point_up: How can the website change to serve this need?
