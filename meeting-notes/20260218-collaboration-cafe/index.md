@@ -26,12 +26,11 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Sign in!
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Matt Fisher / `@mfisher87` / Schmidt DSE
+* Benny Szeghy / `@benjaminszeghy` / UC Berkeley L&S
+* Esha Potharaju / `@e5ha` / UC Berkeley
 
 
 ## Agenda & notes
@@ -61,9 +60,11 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
-* Idea 2
-* Idea 3
+* New example notebook for large 8GB bathymetry dataset
+* Start prototyping integration with ipyleaflet
+* Multidim/timeseries functionality?
+    * TiTiler built-in functionality?
+    * Leafmap built-in functionality?
 
 
 ### 🪄 (all the minutes) Work together!
