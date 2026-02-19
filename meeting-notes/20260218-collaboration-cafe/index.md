@@ -61,7 +61,7 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 #### Ideas
 
 * New example notebook for large 8GB bathymetry dataset
-* Start prototyping integration with ipyleaflet
+* ⭐ Start prototyping integration with ipyleaflet
 * Multidim/timeseries functionality?
     * TiTiler built-in functionality?
     * Leafmap built-in functionality?
@@ -88,6 +88,6 @@ Big questions? Big ideas?
 
 Please write for people who don’t have full context; link to related issues and documentation!
 
-* Share out 1
-* Share out 2
-* ...
+* Started prototyping integration with ipyleaflet.
+  The change was very simple, but wasn't working intesting.
+  I think the development install of the extension wasn't working expected, but we didn't spend very long trying to debug it.
