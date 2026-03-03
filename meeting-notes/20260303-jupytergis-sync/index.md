@@ -35,8 +35,8 @@ Please add new agenda items under the `New agenda items` heading!
 Your name / GitHub ID / affiliation
 
 * Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Martin Renou / `@martinRenou` / QuantStack
+* Matt Fisher / `@mfisher87` / Schmidt DSE
 
 
 ## Agenda
@@ -51,9 +51,21 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* jupyter-xarray-tiler
+    * ~~Add notebook.link to README~~ Nevermind, it requires a server XD
+* Martin had a kickoff meeting with Nakul :tada:
+* Non-geo viz:
+    * Martin: Extend our schema with vega-lite schema?
+        * Since it's schema-based, maybe we can make it collaborative?
+        * Nakul could experiment with integrating
+        * Vega-expressions are cool! Much more readable than openlayers style expressions. Can we make vega-expressions the language users speak to express openlayers styles?
+            * https://github.com/vega/vega/tree/main/packages/vega-expression#api-reference
+* JupyterGIS vector attribute table
+    * Use ipydatagrid-like rendering to show color values matching the map in the attribute table!
+* 
+* Schema problems!
+    * Lack of modularity / reusable definitions
+    * Too coupled with OpenLayers' interface
 
 
 ### Requests for help or feedback
