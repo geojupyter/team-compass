@@ -62,7 +62,7 @@ Your name / GitHub ID / affiliation
             * https://github.com/vega/vega/tree/main/packages/vega-expression#api-reference
 * JupyterGIS vector attribute table
     * Use ipydatagrid-like rendering to show color values matching the map in the attribute table!
-* 
+*
 * Schema problems!
     * Lack of modularity / reusable definitions
     * Too coupled with OpenLayers' interface
