@@ -34,9 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Martin Renou / @martinRenou / QuantStack
+* Matt Fisher / `@mfisher87` / Schmidt DSE
 
 
 ## Agenda
@@ -51,7 +50,20 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
+* jupyter-xarray-tiler
+    * Thinking about handling n-dim Datasets, not DataArrays
+    * How do we help the user with exploring the dimensions of a DataArray?
+        * How do we make this interface modular? E.g. do exploration as a first step, then map the data you've selected from the data array, instead of integrating an exploration experience into ipyleaflet/leafmap?
+        * How do we make the interface reproducible? E.g. do we generate code and auto-create a new cell that does the operation the user did in the widget UI?
+    * Talk to Qiusheng?
+        * Lots of interfaces for exploring data in widgets, but not generating code for reproducibility yet!
+    * https://github.com/jtpio/ipylab
+        * Only way to create new cells from Python. Exposes commands to Python.
+        * Do we need to do this from Python? We could do it from a widget.
+            * Martin: Cleaner this way! More conventional, Jupyterish approach.
+    * https://anywidget.dev/
+        * Small problem: Can't create a container widget (Widget that contains widgets). This is a common pattern e.g. in bqplot, the figure is a widget, which contains an axis widget. ipyleaflet map is a widget, each layer is a widget. This is not possible with Anywidget. 
+    * 
 * Status
 * Status
 
