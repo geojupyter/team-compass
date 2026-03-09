@@ -34,7 +34,7 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Martin Renou / @martinRenou / QuantStack
+* Martin Renou / `@martinRenou` / QuantStack
 * Matt Fisher / `@mfisher87` / Schmidt DSE
 
 
@@ -63,13 +63,3 @@ Your name / GitHub ID / affiliation
             * Martin: Cleaner this way! More conventional, Jupyterish approach.
     * https://anywidget.dev/
         * Small problem: Can't create a container widget (Widget that contains widgets). This is a common pattern e.g. in bqplot, the figure is a widget, which contains an axis widget. ipyleaflet map is a widget, each layer is a widget. This is not possible with Anywidget. 
-    * 
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
