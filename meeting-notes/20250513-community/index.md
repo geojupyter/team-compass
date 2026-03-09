@@ -1,7 +1,7 @@
 ---
-title: "GeoJupyter core community meeting"
+title: "GeoJupyter community meeting"
 description: |
-  A monthly gathering of the GeoJupyter core community. Open to all!
+  A monthly gathering of the GeoJupyter community. Open to all!
 date: "2025-05-13"
 image: "../images/community-meeting.jpg"
 author:
@@ -11,7 +11,7 @@ categories:
 tags: [meeting-notes]
 ---
 
-# GeoJupyter core community meeting (2025-05-13)
+# GeoJupyter community meeting (2025-05-13)
 
 Please add new agenda items under the `New agenda items` heading!
 

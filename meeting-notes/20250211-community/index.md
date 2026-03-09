@@ -1,7 +1,7 @@
 ---
-title: "GeoJupyter core community meeting"
+title: "GeoJupyter community meeting"
 description: |
-  A monthly gathering of the GeoJupyter core community. Open to all!
+  A monthly gathering of the GeoJupyter community. Open to all!
 date: "2025-02-11"
 image: "../images/community-meeting.jpg"
 author:
@@ -11,7 +11,7 @@ categories:
 tags: [meeting-notes]
 ---
 
-# GeoJupyter core community meeting (2025-02-11)
+# GeoJupyter community meeting (2025-02-11)
 
 - [Join us on Zoom](https://berkeley.zoom.us/j/99659397059?pwd=519zZJlcAa1TCyJWRYyYbaYDfuaXNo.1)
   - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=4pm)
