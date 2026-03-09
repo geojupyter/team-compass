@@ -46,7 +46,14 @@ Your name / GitHub ID / affiliation / icebreaker
 
 ### New agenda items
 
-- [ ]
+- Benny - Demo: Reproducible GUI interactions 
+    - ...
+    - How can this be integrated with JupyterGIS?
+- Matt - [jupyter-xarray-tiler](https://jupyter-xarray-tiler.readthedocs.io/) now supports Xpublish
+    - ...
+- Add your agenda items here!
+- ...
+- ...
 
 
 ### Pushed to next meeting
