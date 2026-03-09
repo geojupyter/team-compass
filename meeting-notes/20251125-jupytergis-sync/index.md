@@ -3,7 +3,7 @@ title: "JupyterGIS sync meeting"
 description: |
   A weekly gathering of JupyterGIS team to discuss our progress and help each other out.
   Open to all, but this meeting is _short_ and task-focused, so there will not be time
-  for introductions. Please join a core meeting!
+  for introductions. Please join a community meeting!
 date: "2025-11-25"
 image: "../images/standup.jpg"
 author:
@@ -16,7 +16,7 @@ tags: [jupytergis-notes]
 > :pray: **Our apologies, there's no time for introductions!**
 >
 > We're excited for you to join us, but this meeting is _short_ and _task-focused_.
-> Please attend core community meetings
+> Please attend community meetings
 > ([see GeoJupyter calendar](https://geojupyter.org/calendar))
 > to meet the team and add your own agenda items, and/or
 > [introduce yourself on  Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Welcome)!
