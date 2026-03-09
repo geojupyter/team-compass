@@ -39,7 +39,7 @@ project:
         - "https://lps25.esa.int/programme/programme-session/?id=B97391AC-F0D6-4C3D-B38C-FB69AA1219D6"
         - "https://2025.geopython.net/"
         - "https://csdms.colorado.edu/wiki/ESPIn2025"
-        - "https://github.com/geojupyter/jupytergis-tiler/blob/main/examples/xarray.ipynb"
+        - "https://github.com/*"  # Rate limit too low (60 per hour) for link checking :(
       severity: "warn"
 
 site:
