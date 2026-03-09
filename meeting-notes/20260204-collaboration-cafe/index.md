@@ -30,7 +30,7 @@ Your name / GitHub ID / affiliation / icebreaker
 
 * Matt Fisher / `@mfisher87` / Schmidt DSE
 * Benjamin (Benny) Szeghy / `@benjaminszeghy` / UC Berkeley
-* Esha Potharaju / @e5ha / UC Berkeley
+* Esha Potharaju / `@e5ha` / UC Berkeley
 
 
 ## Agenda & notes
