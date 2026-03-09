@@ -1,7 +1,7 @@
 ---
-title: "GeoJupyter core community meeting"
+title: "GeoJupyter community meeting"
 description: |
-  A monthly gathering of the GeoJupyter core community. Open to all!
+  A monthly gathering of the GeoJupyter community. Open to all!
 date: "{{ date.strftime('%Y-%m-%d') }}"
 image: "../images/community-meeting.jpg"
 author:
@@ -11,7 +11,7 @@ categories:
 tags: [meeting-notes]
 ---
 
-# GeoJupyter core community meeting ({{ date.strftime("%Y-%m-%d") }})
+# GeoJupyter community meeting ({{ date.strftime("%Y-%m-%d") }})
 
 Please add new agenda items under the `New agenda items` heading!
 

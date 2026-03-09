@@ -6,8 +6,8 @@ on:
       kind:
         type: "choice"
         description: "What kind of meeting?"
-        options:
-          - "core"
+        options:  # Must match template names in `.github/meeting-notes-templates/`
+          - "community"
           - "collaboration-cafe"
           - "jupytergis-sync"
       date:
@@ -19,7 +19,7 @@ on:
         default: "today"
         type: "string"
 
-  issue_comment:  # TODO: Switch to issue comment?
+  issue_comment:
     types:
       - "created"
       - "edited"

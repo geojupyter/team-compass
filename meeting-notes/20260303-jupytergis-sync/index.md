@@ -4,7 +4,7 @@ description: |
   A weekly gathering of JupyterGIS team to discuss our progress and help each other out.
   Open to all, but this meeting is _short_ and task-focused, so there will not be time
   for introductions. Please join a community meeting!
-date: "2025-07-22"
+date: "2026-03-03"
 image: "../images/standup.jpg"
 author:
   - name: "The GeoJupyter community"
@@ -21,41 +21,55 @@ tags: [jupytergis-notes]
 > to meet the team and add your own agenda items, and/or
 > [introduce yourself on  Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Welcome)!
 
-# JupyterGIS sync meeting (2025-07-22)
+# JupyterGIS sync meeting (2026-03-03)
 
 Please add new agenda items under the `New agenda items` heading!
 
 - [Join us on Google Meet](https://meet.google.com/zhk-vygf-gke)
   - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=3pm)
-- [Previous meetings](https://geojupyter.org/blog/#category=JupyterGIS%20notes)
+- [Previous meetings](https://compass.geojupyter.org/meeting-notes/)
 
 
 ## Attendees
 
 Your name / GitHub ID / affiliation
 
-* Martin / \@martinRenou / QuantStack
-* Matt / \@mfisher87 / DSE
+* Name / GitHub ID / affiliation
+* Martin Renou / `@martinRenou` / QuantStack
+* Matt Fisher / `@mfisher87` / Schmidt DSE
 
 
 ## Agenda
 
 * Review our [project board](https://github.com/orgs/geojupyter/projects/2)
   * What items should be added?
-      * Added [#792](https://github.com/geojupyter/jupytergis/issues/792)
-      * Added [#784](https://github.com/geojupyter/jupytergis/pull/784)
-      * Added [#754](https://github.com/geojupyter/jupytergis/pull/754)
   * Are there stale items that are no longer urgent?
   * Are there things we can change about the project board to make it more useful? Add
     more information? Remove steps?
 * _Please add more items if you have them!_
 
 
-
 ### Status reports
 
-* Martin: Embedded panels ready for review: https://github.com/geojupyter/jupytergis/pull/784
-* Matt: really busy with event planning, nothing new!
-* Matt: Will work on symbology today so we can resume tomorrow at hackathon!
-* Matt: JupyterLab extension documentation could use some improvement for new users. E.g. something to help new users build a correct mental model.
-    * Martin: We've been talking about this internally as well!
+* jupyter-xarray-tiler
+    * ~~Add notebook.link to README~~ Nevermind, it requires a server XD
+* Martin had a kickoff meeting with Nakul :tada:
+* Non-geo viz:
+    * Martin: Extend our schema with vega-lite schema?
+        * Since it's schema-based, maybe we can make it collaborative?
+        * Nakul could experiment with integrating
+        * Vega-expressions are cool! Much more readable than openlayers style expressions. Can we make vega-expressions the language users speak to express openlayers styles?
+            * https://github.com/vega/vega/tree/main/packages/vega-expression#api-reference
+* JupyterGIS vector attribute table
+    * Use ipydatagrid-like rendering to show color values matching the map in the attribute table!
+*
+* Schema problems!
+    * Lack of modularity / reusable definitions
+    * Too coupled with OpenLayers' interface
+
+
+### Requests for help or feedback
+
+* Help request
+* Help request
+* Help request
