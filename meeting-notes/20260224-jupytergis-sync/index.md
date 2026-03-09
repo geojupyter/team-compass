@@ -62,4 +62,4 @@ Your name / GitHub ID / affiliation
         * Do we need to do this from Python? We could do it from a widget.
             * Martin: Cleaner this way! More conventional, Jupyterish approach.
     * https://anywidget.dev/
-        * Small problem: Can't create a container widget (Widget that contains widgets). This is a common pattern e.g. in bqplot, the figure is a widget, which contains an axis widget. ipyleaflet map is a widget, each layer is a widget. This is not possible with Anywidget. 
+        * Small problem: Can't create a container widget (Widget that contains widgets). This is a common pattern e.g. in bqplot, the figure is a widget, which contains an axis widget. ipyleaflet map is a widget, each layer is a widget. This is not possible with Anywidget.
