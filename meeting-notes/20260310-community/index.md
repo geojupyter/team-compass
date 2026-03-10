@@ -35,16 +35,6 @@ Your name / GitHub ID / affiliation / icebreaker
 * Matt Fisher / `@mfisher87` / Schmidt DSE
 
 
-### Standing items
-
-- [ ]
-
-
-### Follow-up from previous meeting(s)
-
-- [ ]
-
-
 ### New agenda items
 
 - Benny - Demo: Reproducible GUI interactions 
@@ -77,12 +67,3 @@ Your name / GitHub ID / affiliation / icebreaker
         - Ability to override jupytergis settings (jupyterlab settings) in the project file? Package that with the JGIS file?
         - Martin: Bad idea! People will break everything if they edit the CSS and then open issues :) Support and respect JupyterLab themes, have folks make a JLab theme.
             - Maybe if we allow customizing CSS but communicate that this is unsafe and done at own risk.
-- 
-- 
-- 
-- /
-
-
-### Pushed to next meeting
-
-- [ ]
