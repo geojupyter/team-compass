@@ -10,6 +10,7 @@ on:
           - "community"
           - "collaboration-cafe"
           - "jupytergis-sync"
+          - "intern-collab"
       date:
         description: |
           Date of the meeting in `date --date` format, e.g.:
