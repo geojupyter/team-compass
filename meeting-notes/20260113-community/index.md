@@ -61,7 +61,7 @@ Your name / GitHub ID / affiliation
     - STAC doesn't support symbology because it's a custom layer type
         - Martin, Matt agree we should move towards using existing layer/source types for STAC, and move the STAC metadata for a layer (asset/item) into a new provenance field.
     - Scrolly telling map!! https://github.com/geojupyter/jupytergis/pull/1061
-        - Imagining a workflow that's less coupled with JupyterGIS, perhaps using Notebook or MyST as the medium for authoring scrollytelling experiences and using Specta to deploy them! See Specta demo: https://trungleduc.github.io/specta/specta/
+        - Imagining a workflow that's less coupled with JupyterGIS, perhaps using Notebook or MyST as the medium for authoring scrollytelling experiences and using Specta to deploy them! See Specta demo: <https://notebook-link.github.io/specta/specta/>
         - JupyterLab already has a "preview with Specta" extension! Automatically re-renders when file content changes. We could have a live preview in JLab, then deploy.
         - Matt: How does Specta integrate with (or replace) existing blogs?
             - Martin: Could write a blog index as a Notebook! Potentially generate the links to all other posts with Python?

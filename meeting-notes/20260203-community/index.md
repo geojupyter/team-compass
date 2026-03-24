@@ -35,7 +35,7 @@ Your name / GitHub ID / affiliation
 
 ### New agenda items
 
-- [Specta](https://github.com/trungleduc/specta) stuff
+- [Specta](https://github.com/notebook-link/specta) stuff
     - Story maps!
         - Hooks in to Specta's "presentation" mode, and in that case renders the story viewer instead of the regular JupyterGIS interface.
     - Mobile view.
