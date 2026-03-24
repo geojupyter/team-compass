@@ -34,9 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Matt Fisher / `@mfisher87` / Schmidt DSE
+* Martin Renou / `@martinrenou` / QuantStack
 
 
 ## Agenda
@@ -51,13 +50,22 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* GeoPackage PR
+    * Arjun picking it back up
+    * Struggling with some WASM stuff
+    * GeoPackage dependencies depend on a WASM build of SQLite
+    * One of the deps uses a fork! :X Just forked to add a compilation flag (add R\*tree feature). But this means we have 2 WASM runtimes for SQLite.
+    * Can we lazy-load the WASM files?
+    * Merge the PR and track in an issue.
+* Projection in project file is ignored https://github.com/geojupyter/jupytergis/pull/1189
+    * Separately, still need a way to change projection in the GUI!
+* Nakul moved filters to symbology panel
+* File icon fix! :tada: Not sure who John is, but thank you John!
+* model vs sharedModel
+    * Martin: From JupyterLab. Might be against renaming it!
+    * Martin: Would be OK with getting rid of the thin wrappers on `model`
+    * Martin: Make sharedModel hidden / private?
+    * Martin: sharedModel is lower level stuff -- directly make changes on ydoc. That's why I think I think it should be hidden and `model` acts as a higher level interface.
+    * We can test:
+        * Can we change the name of sharedModel, does it break anything?
+        * Can we make sharedModel private, does it break anything?
