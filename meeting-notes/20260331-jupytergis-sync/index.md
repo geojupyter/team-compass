@@ -40,7 +40,7 @@ Your name / GitHub ID / affiliation
 * Martin Renou / `@martinRenou` / QuantStack
 * Guillaume Eynard-Bontemps / `@guillaumeeb` / CNES
 * Greg Mooney / `@gjmooney` / QuantStack
-*   
+*
 *  /
 
 
@@ -61,7 +61,7 @@ Your name / GitHub ID / affiliation
 * How can we maximize the impact of CNES grant funding?
     * Matt: Available to shift priorities and focus only on JGIS if we can identify alignment in impacts we @ DSE see as important in the short-term. I'll need to articulate the impact to other DSE-side decision-makers.
         * We want to focus on making JupyterGIS a powerful alternative to the big players for a specific use case and increase the user base.
-        * We're most interested in how we can enhance Notebook+JGIS workflows to be more polished and steer researchers towards reproducibility-by-default. 
+        * We're most interested in how we can enhance Notebook+JGIS workflows to be more polished and steer researchers towards reproducibility-by-default.
         * Architectural improvements and targeted features in the Python API, plus functionality that improves bi-directional data flow between Python and the map, are the strongest cases IMO. I think there's strong alignment with the grant here.
         * A possible failure mode looks like the "schema overhaul" I started a long way back -- architectural changes happening without clear strategy alignment and co-development with the core team. IMO success will require challenging assumptions, building a clear vision, coordinating our efforts, and moving fast together.
         * During a sprint, I can alter my work schedule to create more overlap, e.g. supporting more synchronous meetings, pair programming, whatever.
@@ -75,7 +75,7 @@ Your name / GitHub ID / affiliation
         - **For CNES' goals, only the visualization matters, everything happens in Python -- maybe for this particular goal of the grant, the work happens in jupyter-xarray-tiler to enable the dynamic viz they're looking for.**
     - CNES: Python API? Just the above?
         - Being able to reproducibly move information (STAC item/catalog selection, shapes) sounds really cool. There's some freedom to spend down the grant on these functionalities, but the bullet above is the primary goal.
-    - CNES: OpenEO layers. Transient layer that could become non-transient. 
+    - CNES: OpenEO layers. Transient layer that could become non-transient.
 
 * Matthias:
     * mobile bottom sheet: demo proof of concepts for:
@@ -108,7 +108,7 @@ Your name / GitHub ID / affiliation
             * Matt: Need to keep heatmap!
             * Considering adopting vega for non-map viz, if this interface can output vega-lite grammar, that would be amazing
             * With Nakul: Conditional rendering. OL supports it, but it's not great. E.g. if mag > 2, red, otherwise colormap. The OL style expression is _very_ hard to read. Vega expressions are JS expressions, easier to read, and supports more advanced behaviors. Can we write an adapter from vega-expression -> vega parser -> JupyterGIS grammar schema -> Open Layers style? There's a parser that can convert expressions -> AST, and we can do AST -> JupyterGIS grammar schema.
-                * Matthias: The schema that the new "grammar" UI defines can be compiled to different representations. 
+                * Matthias: The schema that the new "grammar" UI defines can be compiled to different representations.
         * Matthias: Be open to the schema evolving as we continue working, don't get hung up on making it perfect. Be humble, rely on prior art.
         * Matthias: Next (bonus) steps for data model (start simple):
             * Are branching and merging. E.g.
@@ -116,7 +116,7 @@ Your name / GitHub ID / affiliation
                 * merging: Build RGBA color output from multiple input fields.
                 * This is potentially a complexity trap! **Where do we draw the lines around the visual editor and require users to write code to express really complex symbology**
             * Filters! (and, or)
-        * Martin: OL style expressions "leaking" into our schema. Instead store the generic repr in the document, and write adapter to dynamically generate renderer-specific expressions. 
+        * Martin: OL style expressions "leaking" into our schema. Instead store the generic repr in the document, and write adapter to dynamically generate renderer-specific expressions.
             * Matt: :100: We may switch to DeckGL sometime! We should be building our project schema to be generic and adapt that generic data structure to implementation details e.g. renderer. We'll also want to adapt these style expressions to e.g. plotly plots in the future.
             * Martin: note: OL style expressions leaking may have been introduced to be able to export styles to QGIS Python side? We need to be careful with this.
         * VectorTiles?
