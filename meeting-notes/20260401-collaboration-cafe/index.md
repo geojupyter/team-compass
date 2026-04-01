@@ -28,10 +28,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / icebreaker
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Matt Fisher / `@mfisher87` / Schmidt DSE
+* Benny Szeghy / `...` / UC Berkeley
 
 
 ## Agenda & notes
@@ -58,35 +56,30 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 * **Add your favorite emoji or a `+` next to ideas you’re excited about**.
   * Press the colon (:) key on your keyboard or navigate to “Insert > Emoji” in the menu bar to open the emoji browser.
 
+#### Action items
 
-#### Ideas
-
-* Idea 1
-* Idea 2
-* Idea 3
-
-
-### 🪄 (all the minutes) Work together!
-
-Form teams from the ideas generated in the step above!
+- [ ] Esha: Open a new issue in prototype-map2cell-ipyopenlayers repo. "Support lines, polygons, and points"
+- [ ] Benny: Open a new issue in same repo. "Open communication lines with JupyterAI project"
+- [ ] Benny: Open PR for `integrate_draw` branch, add Matt as reviewer
+- [ ] Benny & Esha: Implement `vector_types_dropdown` functionality
 
 
-#### Breakout rooms
+#### Ideas & discussion
 
-* Lobby: ?
-* Room 1: ?
-* ...
-
-
-### 💬 (10 minutes) Share out
-
-Think about:
-What exciting things did you accomplish?
-What loose ends remain?
-Big questions? Big ideas?
-
-Please write for people who don’t have full context; link to related issues and documentation!
-
-* Share out 1
-* Share out 2
-* ...
+* Discussion: JupyterGIS "Open source GEE"
+    * JupyterGIS has some concrete advantages over GEE:
+        * It's Python-native (GEE is JS-native)
+        * Partial execution support in GEE is poor, JGIS can leverage Notebooks
+* Connection: Jeff Chambers, prof at Berkeley
+    * Switching from Envi -> GEE for his course
+    * Thinking about: Python needs a faster algorithm for grey-level co-occurrence matrix (GLCM). R implementation is good.
+* JupyterAI? How do we integrate?
+    * How do we make an interaction more valuable than just using the chat window directly?
+    * Maybe we offer some static prompts that when clicked populate the JupyterAI chat window with the prompt. E.g. "How do I integrate this new shape with my existing analysis?"
+        * **Simple starting place -- let's do this**
+    * Use the LLM itself to suggest useful prompt. E.g. give the LLM access to the layers that are on the map and maybe some details (bounds? field names?) about the layer and ask it to generate things the user might do next.
+* How do we record interns' work plans?
+    * Use GitHub issues! Put in:
+        * requirements (what we're updating, how)
+        * scope
+        * who's doing the work (assign)
