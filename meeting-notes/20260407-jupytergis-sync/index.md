@@ -55,7 +55,7 @@ Your name / GitHub ID / affiliation
 
 - [ ] Xarray computation -> band expression translator -- how does Xarray store deferred computations internally?
 - [ ] Can Xarray computations be deferred to implicitly occur at read-time without calling `.compute()`
-- [ ] Can we know in advance whether an Xarray computation is "embarassingly parallel"?
+- [ ] Can we know in advance whether an Xarray computation is "embarrassingly parallel"?
 
 
 ### Notes
