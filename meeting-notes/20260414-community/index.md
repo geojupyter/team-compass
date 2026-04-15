@@ -47,7 +47,7 @@ Your name / GitHub ID / affiliation / icebreaker
 - JupyterGIS grants
 - OpenEO process graph layers + titiler-openeo server component
     - Martin: Started looking in to introducing new layer type in JGIS, and it's basically saving the process graph for OpenEO in the layer "presentation" (?) Make use of titiler-openeo to serve tiles.
-- Greg: demo: dynamic NDWI algorithm on the fly while panning/zooming the JupyterGIS map, from the Python notebook, and serving with jupytergis-tiler 
+- Greg: demo: dynamic NDWI algorithm on the fly while panning/zooming the JupyterGIS map, from the Python notebook, and serving with jupytergis-tiler
     - Showing dynamic computation and tiling of data in viewport
     - Calculates in advance before handing data to titiler
     - vincent: https://github.com/developmentseed/titiler-stacapi can help with visualizing data from stac but not the dynamic computation problem
