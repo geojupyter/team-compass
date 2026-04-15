@@ -28,27 +28,32 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / icebreaker
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Matt Fisher / `mfisher87` / affiliation / ?
+* Martin Renou / `@martinRenou` / QuantStack
+* Greg Mooney / `@gjmooney` / QuantStack
+* Vincent Sarago / `@vincentsarago` / DevelopmentSeed
+* Benjamin Szeghy / `@benjaminszeghy` / UC Berkeley
 
-
-### Standing items
-
-- [ ]
-
-
-### Follow-up from previous meeting(s)
-
-- [ ]
 
 
 ### New agenda items
 
-- [ ]
-
-
-### Pushed to next meeting
-
-- [ ]
+- [Community initiatives](https://github.com/orgs/geojupyter/projects/6) -  roadmapping as a "forum" inspired by 2i2c & JupyterHub community.
+    - What would you add?
+    - How to organize sub-initiatives (e.g. the upcoming QuantStack grant work for JuptyerGIS)?
+    - Suggestions for how this can be useful as a discussion platform in addition to a visualization of where we're going? How to spur community input?
+    - New label: "needs funding"
+    - Try and demo with Sylvain next week
+- JupyterGIS grants
+- OpenEO process graph layers + titiler-openeo server component
+    - Martin: Started looking in to introducing new layer type in JGIS, and it's basically saving the process graph for OpenEO in the layer "presentation" (?) Make use of titiler-openeo to serve tiles.
+- Greg: demo: dynamic NDWI algorithm on the fly while panning/zooming the JupyterGIS map, from the Python notebook, and serving with jupytergis-tiler 
+    - Showing dynamic computation and tiling of data in viewport
+    - Calculates in advance before handing data to titiler
+    - vincent: https://github.com/developmentseed/titiler-stacapi can help with visualizing data from stac but not the dynamic computation problem
+        - Does this work with only STAC API? Or also static file catalog?
+            - Vincent: Relies on pystac-api, not sure!
+        - Vincent: Investigating whether titiler-stacapi makes sense!
+- Reproducible viz -> Notebook workflows
+- Adopting `uv` (& `pixi`?)
+    - Martin: Let's keep uv for #1290, but move towards full-repo pixi adoption!
