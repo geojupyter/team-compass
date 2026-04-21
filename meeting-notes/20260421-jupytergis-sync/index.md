@@ -34,9 +34,9 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Matt / `@mfisher87` / Schmidt DSE
+* Greg / `@gjmooney` / QuantStack
+* Vincent / `@vincentsarago` / Development Seed
 
 
 ## Agenda
@@ -51,13 +51,18 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* Greg: PR for drawing vector layers
+    * Matthias review
+* Greg: Fixup awareness updates
+    * Break things up in to many fields/signals: selectedLayer, viewportState, identifiedFeatures, remoteUser, cursorPosition,
+* Vincent: Notebook for calculating at tile request time
+    * Needs an additional endpoint (mosaic endpoint instead of dataarray endpoint)
+        * Backend to run search queries to get items and create xarray data array for each tile (opposite of current). DataArray created on each tile request.
+        * Define Array, create path dependency, create factory for tile requests with dependency of search request. Pass this to the endpoint.
+    * Something needs to change in jupyter-xarray-tiler to do this
+    * 
+* Matt: working on integrating jupyter-xarray-tiler with jupytergis
+* Vincent: Update ... to get rid of Xarray because it's slow. titiler-xarray will stay for now, but may switch to titiler-zarr and go into maintenance mode. DevSeed goal is to move more towards Zarr support.
+    * EOPF: Testing new data format. Many arrays in one Zarr store. Takes 5-7 seconds to open, then can create tiles. Super slow! Decided to work with Zarr-Python to get asynchronous behavior.
+    * Vincent: For local tiling, look at XPublish?
+        * Matt: Already looking ;)
