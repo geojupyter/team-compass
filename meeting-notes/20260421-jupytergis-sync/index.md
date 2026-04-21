@@ -60,7 +60,7 @@ Your name / GitHub ID / affiliation
         * Backend to run search queries to get items and create xarray data array for each tile (opposite of current). DataArray created on each tile request.
         * Define Array, create path dependency, create factory for tile requests with dependency of search request. Pass this to the endpoint.
     * Something needs to change in jupyter-xarray-tiler to do this
-    * 
+    *
 * Matt: working on integrating jupyter-xarray-tiler with jupytergis
 * Vincent: Update ... to get rid of Xarray because it's slow. titiler-xarray will stay for now, but may switch to titiler-zarr and go into maintenance mode. DevSeed goal is to move more towards Zarr support.
     * EOPF: Testing new data format. Many arrays in one Zarr store. Takes 5-7 seconds to open, then can create tiles. Super slow! Decided to work with Zarr-Python to get asynchronous behavior.
