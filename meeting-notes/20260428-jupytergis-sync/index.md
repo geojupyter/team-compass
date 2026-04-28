@@ -34,9 +34,10 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Greg / `@gjmooney` / QuantStack
+* Martin / `@martinrenou` / QuantStack
+* Matt / `@mfisher87` / DSE
+* Benny / `@benjaminszeghy` / Berkeley
 
 
 ## Agenda
@@ -51,9 +52,23 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* JupyterGIS & AI
+    * https://github.com/geojupyter/jupyter-geoagent
+    * https://github.com/geojupyter/jupytergis/pull/969
+        * Previously our commands just spawned dialogs, but didn't actually create layers. This PR added commands to use those same commands programmatically.
+        * Works with JupyterLite-AI or Jupyter-AI
+        * JupyterLite-AI doesn't require Jupyter-AI!
+        * There's also [NotebookIntelligence](https://github.com/notebook-intelligence/notebook-intelligence)! There are 3 different things! Probably more.
+    * Martin: Biggest worry is depending on Jupyter-AI too much -- don't want to restrict deployments to Lab only.
+* WebGlLayer -> rename GeoTiffLayer
+* VectorLayer -> VectorImageLayer PR: https://github.com/geojupyter/jupytergis/pull/1316
+    * Faster, but worse label rendering (we don't render labels!)
+    * https://openlayers.org/en/latest/apidoc/module-ol_layer_VectorImage-VectorImageLayer.html
+* Benny: Geoprocessing toolbox. Let's chat at the community meeting!
+* Martin: Vega expression PR! Let's chat at the community meeting. Want Matthias to be involved.
+    * Matt: Want to work on this with Matthias! Start a thread in GeoJupyter Zulip and `@` Benny, Matthias, Martin, Greg
+* TiTiler: Martin and Matt to chat! Can wait 2 weeks.
+* Matt: Send info about meeting notes setup to Martin for next week.
 
 
 ### Requests for help or feedback
