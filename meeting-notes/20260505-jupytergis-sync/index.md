@@ -34,30 +34,18 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Vincent Sarago / vincentsarago / Developmentseed
+* Martin Renou / martinRenou / QuantStack
 * Name / GitHub ID / affiliation
 
 
 ## Agenda
 
-* Review our [project board](https://github.com/orgs/geojupyter/projects/2)
-  * What items should be added?
-  * Are there stale items that are no longer urgent?
-  * Are there things we can change about the project board to make it more useful? Add
-    more information? Remove steps?
-* _Please add more items if you have them!_
-
-
-### Status reports
-
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* Matthias at EGU
+  * Poster on JupyterGIS and obspy presentation
+  * People tend to look at JupyterGIS on mobile, we should really focus on improving the UX on mobile: improve the layout, have a better approach than right clicking for many tasks.
+* Grammar of graphics PR: https://github.com/geojupyter/jupytergis/pull/1221
+* Nakul's vega PR to be a "scale" of the grammar of graphics PR
+* zarr layers support
+  * zarr TypeScript library https://github.com/gzuidhof/zarr.js ? https://github.com/manzt/zarrita.js ?
+  * integration with OpenLayers? https://openlayers.org/en/latest/examples/geozarr.html
