@@ -3,6 +3,8 @@ environments:
   default:
     channels:
     - url: https://conda.anaconda.org/conda-forge/
+    options:
+      pypi-prerelease-mode: if-necessary-or-explicit
     packages:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
@@ -35,7 +37,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxslt-1.1.43-h7a3aeb2_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/lxml-6.0.0-py313h73548e6_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.8.0-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.9.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/nodejs-24.4.1-heeeca48_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/numpy-2.3.2-py313hf6604e3_0.conda
@@ -75,7 +77,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libzlib-1.3.1-hd23fc13_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/llvm-openmp-20.1.8-hf4e0ed4_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/lxml-6.0.0-py312h3ce7cfc_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.8.0-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.9.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/ncurses-6.5-h0622a9a_3.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/nodejs-24.4.1-h2e7699b_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/numpy-2.3.2-py312hda18a35_0.conda
@@ -113,7 +115,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/libzlib-1.3.1-h2466b09_2.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/lxml-6.0.0-py313he881f1c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/mkl-2024.2.2-h66d3029_15.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.8.0-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.9.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/nodejs-24.4.1-he453025_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/numpy-2.3.2-py313hce7ae62_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/openssl-3.5.1-h725018a_0.conda
@@ -912,17 +914,17 @@ packages:
   license_family: Proprietary
   size: 103106385
   timestamp: 1730232843711
-- conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.8.0-pyhcf101f3_0.conda
-  sha256: e873770fbba7b5634eb7d5232b4ff5af351611f092c9b14db8263a93e59ec211
-  md5: 73468bcddaf6ace9d7bfc35f050ac388
+- conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.9.0-pyhcf101f3_0.conda
+  sha256: 3013798e47c4cc6dacd1a780ce4300141762611a23ef6e4327609045a7389e8a
+  md5: cdb96e61fa01be8d8aa62e96d4d98821
   depends:
   - python >=3.10
   - nodejs >=18
   - python
   license: MIT
   license_family: MIT
-  size: 2168981
-  timestamp: 1769200560790
+  size: 2184222
+  timestamp: 1777661767917
 - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
   sha256: 3fde293232fa3fca98635e1167de6b7c7fda83caf24b9d6c91ec9eefb4f4d586
   md5: 47e340acb35de30501a76c7c799c41d7
