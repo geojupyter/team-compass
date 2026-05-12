@@ -39,7 +39,7 @@ Your name / GitHub ID / affiliation
 
 ### Action items
 
-- [ ] 
+- [ ]
 
 
 ### Standing items
@@ -62,7 +62,7 @@ Your name / GitHub ID / affiliation
     - ESA EO tooling forum
         - Guillaume
     - Living Planet Symposium is every 2 years, not this year!
-    - [Compute!](https://compute.events/paris2026/) conference. 
+    - [Compute!](https://compute.events/paris2026/) conference.
     - Others coming up!
 - PR grammar symbology (Matthias)
     - Schema? Schema is now more strict but not generating the form from schema yet.
