@@ -72,8 +72,8 @@ Your name / GitHub ID / affiliation
         * Ability to name plots!
     * Testing symbology with OpenLayers
         * Matt: Snapshot testing? Or?
-* OpenEO support 
+* OpenEO support
     * Available from the Python API on `main` https://github.com/geojupyter/jupytergis/pull/1287
-    * UI Components to edit the OpenEO layer in progress https://github.com/geojupyter/jupytergis/pull/1409 
+    * UI Components to edit the OpenEO layer in progress https://github.com/geojupyter/jupytergis/pull/1409
 * GeoZarr support in progress https://github.com/geojupyter/jupytergis/pull/1400
     * Remains to get the symbology to work with it (needs to get the bands info from the zarr file lazily) :100:
