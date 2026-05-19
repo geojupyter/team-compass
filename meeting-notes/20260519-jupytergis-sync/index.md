@@ -34,9 +34,10 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Martin Renou / `@martinrenou` / QuantStack
+* Matt Fisher / `@mfisher87` / DSE
+* Matthias Meschede / `@mmesch` / QuantStack
+* Vincent Sarago / `@vincentsarago` / DevSeed
 
 
 ## Agenda
@@ -51,13 +52,28 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* Grammar of graphics
+    * PR merged!
+        * Bug: When radius not set, nothing is displayed.
+    * Martin: Working on Python API side! https://github.com/geojupyter/jupytergis/pull/1420
+        * Expose grammar of graphics on the programmatic API! :tada:
+        * Factory functions for e.g. `constant_color`
+        * Can pass multiple factory functions as a list, and these are separate symbology "layers" (**we need a better name for this**!)
+        * Objects with chainable methods, e.g. `constant_num(3, target=["circle-radius", "circle-stroke-width"]).color_ramp(value="mag", target="stroke", name="viridis")`
+        * Race condition: sometimes symbology doesn't apply as expected.
+* Matthias: Vega-lite plot rendering PoC (https://github.com/geojupyter/jupytergis/pull/1419)
+    * Matt: Mixed feelings about mixed plot and map symbology in the UI! More efficient, but potentially confusing. Some icons for which mappings are plot mappings and which are map ones might be useful! (:+1: Martin)
+    * Matt: What do we think this UI should look like?
+        * Bottom panel right now, reusing same space as console.
+        * Might be nice to use different JLab tabs
+            * Should be doable if they are lumino widgets, Lab will allow drag-and-drop. Could then also generate plots in notebooks!
+            * Can use similar approach for attribute tables
+        * Floating might also be nice!
+        * Ability to name plots!
+    * Testing symbology with OpenLayers
+        * Matt: Snapshot testing? Or?
+* OpenEO support 
+    * Available from the Python API on `main` https://github.com/geojupyter/jupytergis/pull/1287
+    * UI Components to edit the OpenEO layer in progress https://github.com/geojupyter/jupytergis/pull/1409 
+* GeoZarr support in progress https://github.com/geojupyter/jupytergis/pull/1400
+    * Remains to get the symbology to work with it (needs to get the bands info from the zarr file lazily) :100:
