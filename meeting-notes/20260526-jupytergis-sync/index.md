@@ -39,7 +39,7 @@ Your name / GitHub ID / affiliation
 * Matt Fisher / `@mfisher87` / Schmidt DSE
 * Greg Mooney / `@gjmooney` / QuantStack
 * Benjamin Szeghy / `benjaminszeghy` / Schmidt DSE
-* 
+*
 
 
 ## Agenda
@@ -58,7 +58,7 @@ Your name / GitHub ID / affiliation
     * Martin: Pinning to 3.13 in CI is fine!
     * Martin: Concerned about conflicts with symbology PR. Prefer to merge the tiler PR first!
 * geoprocessing / code generation PoC/demo
-    * Martin: :tada: 
+    * Martin: :tada:
     * Matt: Like the idea to move this into a dedicated repository representing processing operations and their translations into different runners (Python/Pandas, Python/Polars, GDAL, GRASS, R, etc.) as just data, reusable in many software projects.
         * Martin: In QGIS, processing defined as Python classes. They have arguments, and templates to generated GDAL. This is really just data
     * UI: Where does the dialog for geoprocessing go? Right panel, toolbar button and dialog?
