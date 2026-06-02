@@ -74,5 +74,5 @@ Your name / GitHub ID / affiliation
 * Data management, how do we get data to Python/R/other kernels?
     * In JupyterLite, kernel can access the browser cache
     * GeoParquet with spatial indexes proposal: https://github.com/Kanahiro/cloud-optimized-geoparquet
-        * QuantStack Parquet/Arrow folks unsure about this proposal. 
+        * QuantStack Parquet/Arrow folks unsure about this proposal.
 * Qiusheng making an in-browser GIS thing! https://geolibre.app/demo/
