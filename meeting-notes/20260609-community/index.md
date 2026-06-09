@@ -26,29 +26,28 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Attendees
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-
-
-### Standing items
-
-- [ ]
-
-
-### Follow-up from previous meeting(s)
-
-- [ ]
+* Nicolas Brichet / @brichet / QuantStack
+* Matt / `@mfisher87` / SchmidtDSE
+* Guillaume Eynard-Bontemps / @guillaumeeb / CNES
+* Greg Mooney / @gjmooney / QuantStack
 
 
 ### New agenda items
 
-- [ ]
-
-
-### Pushed to next meeting
-
-- [ ]
+- Glossary!
+    - https://github.com/geojupyter/jupytergis/pull/1491
+    - https://github.com/geojupyter/jupytergis/issues/1479
+    - Would love feedback on glossary in general + symbology terms
+    - Nicolas: +1
+    - TOC on index page doesn't include glossary, just includes h2 headers of the about/index page?
+- Story map stuff!
+    - Merged article-style specta view (named "vertical scroll") and mobile view
+    - Adding global navigation in title bar in the Specta list mode, replacing the one that was at the bottom
+- How to easily run jupyter-tiler or openEO stuff (binder link?)
+    - Two issues:
+        - Binder links in PRs aren't working (might be linked to CNES network)
+        - No binder link in README for main branch / latest release
+    - For now try it out with uv:
+        - `uv run --with jupytergis==<version> --with jupyterlab jupyter lab`
