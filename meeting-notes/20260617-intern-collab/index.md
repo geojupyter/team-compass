@@ -26,65 +26,41 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / icebreaker
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Benjamin szeghy / `benjaminszeghy` / DSE / ?
+* Matt Fisher / `@mfisher87` / Berkeley | DSE
 
 
 ## Agenda & notes
 
-### ⚡ (5 minutes) Lightning intros
+### Action item
 
-Tell us about you in 30 seconds or less!
-
-
-### 🌐 (5 minutes) Lightning demo
-
-What's new? Show & tell.
-Post on Zulip to request a show & tell slot;
-by default, QuantStack will demo awesome JupyterGIS progress each meeting!
+- [ ] Benny: Create a JupyterGIS issue for the "draw + data"
+- [ ] Benny: Create a corresponding initiative!
+- [ ] Matt: Reach out to Clancy about collaborative draw + data use case
 
 
-### 💡 (5 minutes) What will we work on?
+### Discussion
 
-* **What do you want to work on today**?
-  * For ideas, check out the [hackathon](https://github.com/geojupyter/jupytergis/labels/hackathon)
-    and [good first issue](https://github.com/geojupyter/jupytergis/labels/good%20first%20issue)
-    labels on the JupyterGIS project!
-* **Add your ideas to the “ideas” list below**.
-* **Add your favorite emoji or a `+` next to ideas you’re excited about**.
-  * Press the colon (:) key on your keyboard or navigate to “Insert > Emoji” in the menu bar to open the emoji browser.
-
-
-#### Ideas
-
-* Idea 1
-* Idea 2
-* Idea 3
-
-
-### 🪄 (all the minutes) Work together!
-
-Form teams from the ideas generated in the step above!
-
-
-#### Breakout rooms
-
-* Lobby: ?
-* Room 1: ?
-* ...
-
-
-### 💬 (10 minutes) Share out
-
-Think about:
-What exciting things did you accomplish?
-What loose ends remain?
-Big questions? Big ideas?
-
-Please write for people who don’t have full context; link to related issues and documentation!
-
-* Share out 1
-* Share out 2
-* ...
+* Thinking about Lucia's described workflow
+    * Using Google Earth imagery to inventory trees (do we understand this right?)
+    * Presumably: Click a tree, get its coordinates, record attributes (species?) into a saved dataset
+    * In JupyterGIS, you can create a dataset by drawing points, but you don't have attributes
+    * To enable Lucia to do this in JupyterGIS:
+        * Add a way to define the structure of the data you want to create, e.g. what fields you want and their types (string vs number)
+        * Either fill out the form every time you create a point, or fill out (partially or in full) the form before clicking, and every click populates the pre-filled form values. E.g. "I want to mark every tree I click as a Spruce", and then you just click with no form-filling.
+        * Perhaps you right-click on a layer, go to "properties", and then "attach form" that is used when drawing. This may feel a bit hidden for users using the tool the first time.
+        * Bonus? "Add a marker at my current GPS location" -- could be useful for field data collection?
+    * Clancy Wilmott & "Participatory Mapping"
+        * Want a way to have many volunteers/team members contribute data to a single data source.
+        * Have done this on individual project basis with custom implementation
+        * Esri has "Field Maps", which costs extra! (And it's not very usable/configurable)
+        * E.g. door-to-door tool called PDI, industry standard (and expensive)
+            * Benny: Ordered voter data from state of CA and county of Alameda. Tried to use it with Field Maps. Had lots of issues, like couldn't control per-file data ordering when visualizing.
+            * Talked to Clancy about this, and she's been looking at it for a long time and doesn't know a better way.
+    * Matt: Benny should make an experience report (or many)!
+        * Benny: I have a few past experiences ready to record
+            * Benny: Ran in to jupyter-tiler issues for one use case.
+        * Clancy is going on sabbatical soon, need her input ASAP.
+* AI Chat bubbles
+    * Let's review! :white_check_mark:
+* Export to interactive map button? Downloads a zipped folder containing data & HTML file to display a map & maybe some other conveniences.
