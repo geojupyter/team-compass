@@ -34,9 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Benny Szeghy / `@benjaminszeghy` / schmidt DSE
+* Matt Fisher / `@mfisher87` / affiliation
 
 
 ## Agenda
@@ -51,13 +50,11 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* Benny & Matt: [Summer intern project board](https://github.com/orgs/geojupyter/projects/8/views/1)
+    * Review
+    * Clean up complete tasks
+    * Populate some already-completed tasks
+    * Finish tasks:
+        * Archive map2cell prototype repo
+        * Merge AI chat bubbles PR
+    * Labeling! https://github.com/geojupyter/2026-summer-intern-tasks/issues/9
