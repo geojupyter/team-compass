@@ -26,67 +26,26 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Sign in!
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Matt / `@mfisher87` / Schmidt DSE
+* Benny / `benjaminszeghy` / Schmidt DSE
+
+## Ideas
+
+* New initiatives?
+    * Fieldwork (https://github.com/geojupyter/initiatives/issues/32)
+        * [NTRIP](https://en.wikipedia.org/wiki/Networked_Transport_of_RTCM_via_Internet_Protocol)?
+    * JupyterGIS help text (TODO)
+    * Static HTML/JS map export (https://github.com/geojupyter/initiatives/issues/31)
+* Add "help" affordances
+    * https://github.com/geojupyter/jupytergis/issues/1550
+* GPS indicator
+    * https://github.com/geojupyter/jupytergis/pull/1541
 
 
 ## Agenda & notes
 
-### ⚡ (5 minutes) Lightning intros
-
-Tell us about you in 30 seconds or less!
-
-
-### 🌐 (5 minutes) Lightning demo
-
-What's new? Show & tell.
-Post on Zulip to request a show & tell slot;
-by default, QuantStack will demo awesome JupyterGIS progress each meeting!
-
-
-### 💡 (5 minutes) What will we work on?
-
-* **What do you want to work on today**?
-  * For ideas, check out the [hackathon](https://github.com/geojupyter/jupytergis/labels/hackathon)
-    and [good first issue](https://github.com/geojupyter/jupytergis/labels/good%20first%20issue)
-    labels on the JupyterGIS project!
-* **Add your ideas to the “ideas” list below**.
-* **Add your favorite emoji or a `+` next to ideas you’re excited about**.
-  * Press the colon (:) key on your keyboard or navigate to “Insert > Emoji” in the menu bar to open the emoji browser.
-
-
-#### Ideas
-
-* Idea 1
-* Idea 2
-* Idea 3
-
-
-### 🪄 (all the minutes) Work together!
-
-Form teams from the ideas generated in the step above!
-
-
-#### Breakout rooms
-
-* Lobby: ?
-* Room 1: ?
-* ...
-
-
-### 💬 (10 minutes) Share out
-
-Think about:
-What exciting things did you accomplish?
-What loose ends remain?
-Big questions? Big ideas?
-
-Please write for people who don’t have full context; link to related issues and documentation!
-
-* Share out 1
-* Share out 2
-* ...
+We decided to work on "help" affordances.
+We fixed a bug where `InfoTip` components would display their tooltip underneath dialogs (https://github.com/geojupyter/jupytergis/pull/1541).
+We added a new tooltip to explain "Symbology layers" ("Rules" in the new lingo defined by the glossary), but haven't pushed or opened a PR yet (TODO: Benny).
