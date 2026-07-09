@@ -65,7 +65,7 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 - [ ] Matt & Maryam: Review the above, then share it with the team (including Juliana, ?)!
 
 ### Notes
- 
+
 * Trail:
     * Handling work across computers?
         * Persistent project ID in the trailfile. Use GitHub to clone the project to the other machine.
@@ -112,11 +112,11 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
                 * Write a MyST site
                 * Event: `myst build --html`
                 * If the user pushed to GitHub and GitHub builds the site, we don't record anything. They can manually create an event if they want to.
-                * 
+                *
         * https://storymaps.arcgis.com/stories/9ab0271a09d4475fbccc68f57e97d70e
         * https://anandashar01.github.io/bart-transit-equity-full/
     * What does the actual protocol / message format look like?
         * Can we mock up an example trail file?
         * What expectations for tool implementation do have? Do we want those tools, like JGIS, to save provenance information internally in their own artifacts and write copies to Trail?
     * Clearly defined MVP?
-    * 
+    *
