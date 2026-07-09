@@ -30,7 +30,7 @@ Your name / GitHub ID / affiliation / icebreaker
 
 * Matt / GitHub ID / affiliation / ?
 * Benny / GitHub ID / affiliation / ?
-* Maryam? / GitHub ID / affiliation / ?
+* Maryam / GitHub ID / affiliation / ?
 * Name / GitHub ID / affiliation / ?
 
 
