@@ -49,4 +49,4 @@ Your name / GitHub ID / affiliation
 - Benny - I ran into hard-coded CRS (web mercatur) in the code. Something for converting lat/lon <-> x/y. Is fixing this something we want to tackle?
     - TODO: Open an issue!
         - Benny: Hardcoding
-        - Matt: Change projection in GUI
+        - Matt: Change projection in GUI (https://github.com/geojupyter/jupytergis/issues/1626)
