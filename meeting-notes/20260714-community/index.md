@@ -36,7 +36,7 @@ Your name / GitHub ID / affiliation
 ### New agenda items
 
 - Greg - Attributees / Properties naming decision & PR https://github.com/geojupyter/jupytergis/pull/1616
-    - Discussion: https://github.com/geojupyter/jupytergis/issues/1589 
+    - Discussion: https://github.com/geojupyter/jupytergis/issues/1589
     - We decided "Attributes"!
     - Already encoded in glossary: https://jupytergis.readthedocs.io/en/latest/about/glossary.html#term-Attribute
     - TODO: Matt close issue
