@@ -37,8 +37,8 @@ Your name / GitHub ID / affiliation
 
 * Matt Fisher / `@mfisher87` / Schmidt DSE
 * Benjamin Szeghy / `@benjaminszeghy` / Schmidt DSE
-* 
-* 
+*
+*
 * Greg Mooney / `@gjmooney` / QuantStack
 
 
