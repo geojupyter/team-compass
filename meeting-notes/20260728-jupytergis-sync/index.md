@@ -34,9 +34,12 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+
+* Matt Fisher / `@mfisher87` / Schmidt DSE
+* Benjamin Szeghy / `@benjaminszeghy` / Schmidt DSE
+* 
+* 
+* Greg Mooney / `@gjmooney` / QuantStack
 
 
 ## Agenda
@@ -46,18 +49,10 @@ Your name / GitHub ID / affiliation
   * Are there stale items that are no longer urgent?
   * Are there things we can change about the project board to make it more useful? Add
     more information? Remove steps?
-* _Please add more items if you have them!_
-
-
-### Status reports
-
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* PNPM!
+    * Thinking about proposing killing off JLPM as a JEP?
+    * Add to docs: Switching from JLPM (git clean, etc.)
+* Greg story editor PRs need review!
+    * Matt: How to change the Specta view? (in JGIS editor, choose "guided" or "vertical scroll" -- _author_ determins how the story should be viewed)
+    * There's a story-blog.jgis example for the "vertical scroll" mode!
+    * Matt: Can we integrate some convenience features to jump to Specta from Jupyter?
