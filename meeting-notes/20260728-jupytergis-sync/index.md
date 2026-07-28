@@ -53,6 +53,6 @@ Your name / GitHub ID / affiliation
     * Thinking about proposing killing off JLPM as a JEP?
     * Add to docs: Switching from JLPM (git clean, etc.)
 * Greg story editor PRs need review!
-    * Matt: How to change the Specta view? (in JGIS editor, choose "guided" or "vertical scroll" -- _author_ determins how the story should be viewed)
+    * Matt: How to change the Specta view? (in JGIS editor, choose "guided" or "vertical scroll" -- _author_ determines how the story should be viewed)
     * There's a story-blog.jgis example for the "vertical scroll" mode!
     * Matt: Can we integrate some convenience features to jump to Specta from Jupyter?
