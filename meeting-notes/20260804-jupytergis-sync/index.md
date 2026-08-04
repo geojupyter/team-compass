@@ -56,11 +56,11 @@ Your name / GitHub ID / affiliation
     * Want to support automatically saving "last editor" for example
     * Want to support a large number of features for use cases like crater counting, tree counting.
     * Sidecar file to store huge dataset, dynamically load subset? When collaboratively editing, use a JSON file as the ydoc target, and every N records, sync back to the sidecar file.
-    * Data format? flatgeobuf, geoparquet? 
+    * Data format? flatgeobuf, geoparquet?
     * We need some way to write to a optimized binary format both in JupyterLab serverful context and JupyterLite serverless context. DuckDB-WASM?
     * Funding opportunity to develop new low-level geospatial technology like "icechunk for vectors"?
 * replace CMDK as a dependency?
-    * Greg: We're using ShadCN UI components, but they don't work out of the box with Jupyter, so we use its components directly (which includes CMDK and RadixUI). BaseUI feels like what we should be using, this might be an excuse to switch. 
+    * Greg: We're using ShadCN UI components, but they don't work out of the box with Jupyter, so we use its components directly (which includes CMDK and RadixUI). BaseUI feels like what we should be using, this might be an excuse to switch.
         * We should be able to do a piecemeal migration. Cost to migrate should be low! Should be able to open a PR tomorrow.
         * Let's start with `Select.tsx`!
         * Select and ComboBox should be different things!
