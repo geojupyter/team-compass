@@ -37,7 +37,7 @@ Your name / GitHub ID / affiliation
 ### New agenda items
 
 - Proposed activity: Collaborate on some docs! Explain the various global state / models, and when a contributor should use which for what.
-    - model: 
+    - model:
     - sharedModel: Goes in JGIS file
     - awareness: Transient state (cursor location, viewport location, ...)
     - JupyterLab stateDB (localstorage): State of your local application (panels, size, files open). We could put e.g. embedded terminal state, size of left/right panels in there.
@@ -58,7 +58,7 @@ Your name / GitHub ID / affiliation
         - Martin: Toolbar button is perhaps actually useful! Makes saving explicit.
         - We do `.clear()` to drain it -- is this "out of band" or CRDT-mediated change? We think this is a CRDT message. (TODO: Link docs!)
     - [TiPG](https://developmentseed.org/tipg/) from devseed is the tile server -- serves MVT
-    - 
+    -
     - Open questions:
         - How does user do analysis on data that's in the PostGIS DB?
             - https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoDataFrame.from_postgis.html ?
