@@ -26,29 +26,49 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Attendees
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-
-
-### Standing items
-
-- [ ]
-
-
-### Follow-up from previous meeting(s)
-
-- [ ]
+* Matt / `@mfisher87` / Schmidt DSE
+* Greg / `@gjmooney` / QuantStack
+* Martin / `@martinRenou` / QuantStack
+* Benny / `@benjaminszeghy` / Schmidt DSE
 
 
 ### New agenda items
 
-- [ ]
-
-
-### Pushed to next meeting
-
-- [ ]
+- Proposed activity: Collaborate on some docs! Explain the various global state / models, and when a contributor should use which for what.
+    - model: 
+    - sharedModel: Goes in JGIS file
+    - awareness: Transient state (cursor location, viewport location, ...)
+    - JupyterLab stateDB (localstorage): State of your local application (panels, size, files open). We could put e.g. embedded terminal state, size of left/right panels in there.
+    - uiState: left/right panel open (and GPS location indicator boolean). Persists between reloads (because we save it to stateDB? Or local storage? Not sure at the moment)
+    - Settings: Deployment wide feature flags
+    - IMPORTANT: Codify what is driven by settings vs StateDB vs ...? How do things persist!
+    - Matt: TODO: start this doc
+- Galata snapshot comment workflow
+    - Switch to using inline playwright report action?
+    - Upstream a workflow to automate posting a PR comment!
+- Collab labelling improvements
+    - postgis db and the tile server
+    - OL can listen to changes coming from PostGIS!
+    - a ydoc is the working copy
+    - toolbar button to sync to PostGIS
+        - When you click it, the file is drained to PostGIS
+        - Probably will be a timer or based on number of changes or both
+        - Martin: Toolbar button is perhaps actually useful! Makes saving explicit.
+        - We do `.clear()` to drain it -- is this "out of band" or CRDT-mediated change? We think this is a CRDT message. (TODO: Link docs!)
+    - [TiPG](https://developmentseed.org/tipg/) from devseed is the tile server -- serves MVT
+    - 
+    - Open questions:
+        - How does user do analysis on data that's in the PostGIS DB?
+            - https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoDataFrame.from_postgis.html ?
+        - Should the sync be triggered by automatically or by a button?
+            - In normal Notebook collab, CTRL+S is a no-op, it's always automatically synced.
+            - If we implement autosave in the front-end we end up with conflicts if multiple people are trying to save at the same time. We should implement this to work the same way notebook saving works except writing to a DB instead of a file.
+- Notebook.link may soon be collaborative! WebRTC! Requires some infrastructure to set up.
+    - Linux Foundation CFP to run the handshake server as a public service? Or AWS donate some infra?
+- Benny: Merge combobox change?
+    - Yes!
+    - Should we switch to a dev trunk workflow?
+- Tailwind?
+    - We trust Greg :grin:
