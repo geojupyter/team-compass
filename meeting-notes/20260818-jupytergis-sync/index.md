@@ -34,9 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Matt / `@mfisher87` / Schmidt DSE
+* Greg Mooney / `@gjmooney` / QuantStack
 
 
 ## Agenda
@@ -47,17 +46,12 @@ Your name / GitHub ID / affiliation
   * Are there things we can change about the project board to make it more useful? Add
     more information? Remove steps?
 * _Please add more items if you have them!_
-
-
-### Status reports
-
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* Combobox!
+    * Matt: Merge
+    * Matt: Create an issue to consolidate the two Button components!
+* Tailwind
+    * Greg: Will start going through other components and Tailwind-ifying them!
+* Snapshot testing workflow
+    * With the repo-based approach, we get a commit thank links to the PR, e.g. https://github.com/geojupyter/jupytergis/commit/ae0c3c03fd52ccf42472d970178ad10ba7c8697f
+    * Greg: Currently no comment is posted when the integration tests fail for a reason other than snapshot difference. Easy to assume everything is good if no comment
+    * Consider the inline playwright report action? Less work for us, and there's still an opportunity to improve and upstream a bot comment action. Bot will comment a test report even for non-snapshot failures. Greg, Matt: +1
