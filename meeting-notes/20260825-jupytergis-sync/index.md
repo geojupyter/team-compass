@@ -60,7 +60,7 @@ Your name / GitHub ID / affiliation
         * Martin: Let's track that in an issue
     * Renaming layers/mappings: https://github.com/geojupyter/jupytergis/issues/1479
         * We still need to make a decision
-            * Some transformations are pushed to the renderer, others are static operations on the data (processing). 
+            * Some transformations are pushed to the renderer, others are static operations on the data (processing).
 * Flaky test
     * replace arbitrary waits from the snapshot tests
         * Benny: I'm working on a pr that targets the flakiness of the france-hiking snapshot tests
@@ -73,7 +73,7 @@ Your name / GitHub ID / affiliation
         * We could run mock tile server and HTTP server for STAC?
         * Generate image tiles deterministically during tests so we don't have to store them?
         * Static GH Pages site with tiles named to match XYZ tile service queries?
-* Nakul's renderer switcher ui 
+* Nakul's renderer switcher ui
     * https://github.com/geojupyter/jupytergis/pull/1770
     * Benny: I would really like to see D3-geo added (+1 Martin)
         * Benny: "Best projection support hands down"
