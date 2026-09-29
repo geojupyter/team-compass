@@ -34,9 +34,12 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Martin Renou / `@martinRenou` / QuantStack
+* Matt Fisher / `@mfisher87` / DSE
+* Greg Mooney / `@gjmooney` / QuantStack
+* 
+* 
+* /
 
 
 ## Agenda
@@ -47,17 +50,22 @@ Your name / GitHub ID / affiliation
   * Are there things we can change about the project board to make it more useful? Add
     more information? Remove steps?
 * _Please add more items if you have them!_
-
-
-### Status reports
-
-* Status
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* db layer PR ready for review
+    * https://github.com/geojupyter/jupytergis/pull/1789
+    * End users need to run their own PostGIS server and we point to it with envvar
+    * tipg tile server too!
+    * Database keeps separate tables for each layer by UUID
+    * New Source type: FeatureStore!
+    * ydoc is temp working copy, database is "final" copy!
+    * UX: Logical layer group (shows up as one layer in the panel) with two layers: Base layer which is the database copy, and transient layer with the working copy (ydoc)
+    * "Fold" - save working copy to database
+    * Next steps:
+        * Export from database -- handle new FeatureStore source
+            * Start with GeoJSON, worry about parquet later
+        * Make it easier to install as a package?
+        * Clean up loose tables
+* Draw tool dropdown ready
+    * https://github.com/geojupyter/jupytergis/pull/1898
+    * 
+* Save edited layer as .geojson file on the server instead of in the user machine
+    * https://github.com/geojupyter/jupytergis/pull/1894
