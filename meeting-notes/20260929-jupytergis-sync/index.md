@@ -37,8 +37,8 @@ Your name / GitHub ID / affiliation
 * Martin Renou / `@martinRenou` / QuantStack
 * Matt Fisher / `@mfisher87` / DSE
 * Greg Mooney / `@gjmooney` / QuantStack
-* 
-* 
+*
+*
 * /
 
 
@@ -66,6 +66,6 @@ Your name / GitHub ID / affiliation
         * Clean up loose tables
 * Draw tool dropdown ready
     * https://github.com/geojupyter/jupytergis/pull/1898
-    * 
+    *
 * Save edited layer as .geojson file on the server instead of in the user machine
     * https://github.com/geojupyter/jupytergis/pull/1894
