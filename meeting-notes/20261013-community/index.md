@@ -28,27 +28,26 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation / icebreaker
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-
-
-### Standing items
-
-- [ ]
-
-
-### Follow-up from previous meeting(s)
-
-- [ ]
+* Greg Mooney / `@gjmooney` / QuantStack
+* Matt Fisher / `@mfisher87` / DSE
 
 
 ### New agenda items
 
-- [ ]
-
-
-### Pushed to next meeting
-
-- [ ]
+- Deck.gl learning custom projections!
+    - https://developmentseed.org/deck.gl-raster/examples/reprojection-explainer/
+    - This was the main thing that was driving our choice of OpenLayers
+    - Switch to Deck.gl as our primary renderer?
+        - Also gives format support for free! Parquet!
+- Xarray scale-dependent computations?
+    - Zax - https://www.earthmover.io/blog/compute-roadmap
+    - Fund Xarray to learn to do scale-dependent computations?
+- projection selection UI
+    - Benny's PR still needs to be finished and merged!
+    - What's left to do?
+        - Before mainView refactor, so needs rebase. Greg wants to pick it up!
+    - @ Jupyter Days, 1 question: "Can you change projections?"
+- Interactive layers!
+    - Do a quiz in your story!
+    - Matt: Want to show a GIF of this at FOSS4G on November 3 or 4!!!
+    - Matt: What about "choose your own adventure"? Answers to an interactive segment could change the path through the story.
