@@ -63,16 +63,16 @@ Your name / GitHub ID / affiliation
     * JupyterGIS development setup guide: <https://jupytergis.readthedocs.io/en/latest/contributor_guide/development_setup.html>
     * Jupyter extensions: use [Micromamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html) for package management
     * /
-* 
+*
 * Daniel's notes
     * Dependency should be in pyproject.toml, not requiremens.txt
     * Pre-K is a Rust version of pre-commit and better, highly suggested
     * We have a file that defines our checks
-    * Linting and formatting both using ruff 
-    * type-checking is Pypy 
+    * Linting and formatting both using ruff
+    * type-checking is Pypy
     * uv is not only faster, simpler user interface
     * Later on we might want a task runner
-    * Only thing shouldn't be put in pre-commit is mypy 
+    * Only thing shouldn't be put in pre-commit is mypy
     * Good docstrings, good names, intuitive order, early returns
     * Kwargs over posargs. Often we should use required kwargs
     * Naming booleans is really important
@@ -81,26 +81,26 @@ Your name / GitHub ID / affiliation
     * We want type annotations
     * Diataxis valuable for documentation
         * Tutorials
-        * How-to 
+        * How-to
         * Examples
         * Reference
     * Diataxis highly recommended, read it
-    * Github actions for most of our CI 
+    * Github actions for most of our CI
     * automated tests
     * for minimum and maximum supported versions of python
-    * pre-commit has its own CIs 
-    * look at the existing geospatial universe in jupyter, see where the gaps are and try to fill them 
+    * pre-commit has its own CIs
+    * look at the existing geospatial universe in jupyter, see where the gaps are and try to fill them
     * Reproducible research artifacts
-    * Stuff that's frustrating, a waste of time 
-    * Stuff that's bad science, closed science 
+    * Stuff that's frustrating, a waste of time
+    * Stuff that's bad science, closed science
     * Interviews showing a few places where those gaps
-    * hard to tell a story, so use ArcGIS story maps, which is proprietary :money_mouth_face: 
-    * Google Earth Engine, :money_mouth_face: :moneybag: also forces JavaScript :face_with_head_bandage: 
+    * hard to tell a story, so use ArcGIS story maps, which is proprietary :money_mouth_face:
+    * Google Earth Engine, :money_mouth_face: :moneybag: also forces JavaScript :face_with_head_bandage:
     * Solve general, wide-ranging problems
     * Underneath geojupyter there's workshops, talks, educational materials, hackathons, combination of softwaer work and social work
     * Most of our work is on zulip
     * zulip chat, community calendar
-    * collaboration cafe meeting, rescheduled 
+    * collaboration cafe meeting, rescheduled
         * need to figure a new time
     * jupyter extentensions
         * high level tutorial for developing jupyter extensions
@@ -118,45 +118,45 @@ Your name / GitHub ID / affiliation
         * if you pip install, you are installing an extension
         * a plugin is very specifically a javascript thing
         * jupyterlab is just a pile of extensions cobbled together
-        * Because it's extensions all the way down, you can customize it 
+        * Because it's extensions all the way down, you can customize it
         * You don't need to use jupyter lab, you can use your own lightweight interface
         * server extensions written in python
         * jupyter tiler tile server in the background
-        * myst exposes a couple of endpoints 
+        * myst exposes a couple of endpoints
         * All that is backend API hkind of stuff, server extensions always written in python
         * front-end extension written in javascript or typescript
         * themes exposed as jupyter extensions
         * Extensions that are both: front and and server
-            * Interface that allows user to do e.g. git add, front end stuff and when you do `git add` that needs to happen on the server 
+            * Interface that allows user to do e.g. git add, front end stuff and when you do `git add` that needs to happen on the server
     * recorded tutorials
-    * recorded too 
-    * APIs you need for documenting extensions are with NIX quality 
+    * recorded too
+    * APIs you need for documenting extensions are with NIX quality
         * Go through the jupyter extension documents, how do you define a command how do you define a launcher, etc.
         * commands are the under the hood way to expose to the user interfaec
         * Commands are also visible to LLMs
-        * Commands are how you register behaviors to the user interface 
-        * Jupyter lab exposes these menus 
+        * Commands are how you register behaviors to the user interface
+        * Jupyter lab exposes these menus
         * Anything you define on a menu is a command
         * Commands are the behaviors that underly the buttons
         * Commands can be added to buttons
         * Draw features new layer
 * micromamba, conda
     * for JupyterGIS, really recommend micromamba
-    * micromamba is just like a package manager 
+    * micromamba is just like a package manager
     * several options equivalent to micromamba
     * solved many pitfalls
-    * general recommendation is pixi 
-    * micromamba can be a rust package, etc. 
+    * general recommendation is pixi
+    * micromamba can be a rust package, etc.
     * main advantage is that there are some system level dependencies
-    * e.g. GDAL 
+    * e.g. GDAL
         * hard to install
         * If you install a python library, it requires a very specific version of GDAL
         * mamba, conda, etc. would allow you to install an isolated environment
         * micromamba way simplifies all the problems
         * allows you to get GDAL and the correct version
-        * shared libraries 
+        * shared libraries
 * extension is high level building block
-    * plugin is frontend javascript object 
+    * plugin is frontend javascript object
     * sending a request to the server side
     *  example logs if there is an API endpoint "hello"
     *  we copied the extension, build it, test it
@@ -171,20 +171,20 @@ Your name / GitHub ID / affiliation
     * Use the colon to make pseudo-namespaces
         * Jupyter uses this pattern
     * Execute key and label key, label is what shows up
-    * New raster tile 
+    * New raster tile
     * Execute is what happens when you click that button
     * HOw do you know when that command should be active
-    * You add a command, but no way to call it, so you add it ito the command palette 
+    * You add a command, but no way to call it, so you add it ito the command palette
     * Or add it to the launcher with palette.add
 * JupyterGIS
     * Extensions, widgets
     * Symbology widget
     * The thing that's rendering the map is OpenLayers, a JavaScript layer (old , since 2013 and slowed down)
-    * Large datasets 
+    * Large datasets
     * This one is less than a thousand points
     * Soon as you load more than 50k, it will have poor performance
     * lonboard is an example that implements as a jupyter widget
-    * we're talking about supporting deckGL 
+    * we're talking about supporting deckGL
     * So many javascript renderers, different tradeoffs
         * OpenLayers supports any custom projection
         * We can't do it now,  but there's polar projection
@@ -208,4 +208,4 @@ Your name / GitHub ID / affiliation
     * gets turned into geojson (very inefficient)
 * pm tiles is the visualization optimized version of geoparquet
 * overviews, or tile pyramids
-* First priority: get clone of Matt's work, see if you can consume the events 
+* First priority: get clone of Matt's work, see if you can consume the events
