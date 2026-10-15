@@ -79,7 +79,7 @@ Your name / GitHub ID / affiliation
     * Publishing using trusted publishing
     * For docs, we want API and CLI docs that are generated from docstrings
     * We want type annotations
-    * Diataxis valuable for documentaiton
+    * Diataxis valuable for documentation
         * Tutorials
         * How-to 
         * Examples
@@ -106,10 +106,10 @@ Your name / GitHub ID / affiliation
         * high level tutorial for developing jupyter extensions
         * modules 2 & 3 important
         * If I do this tutorial before November, Matt can answer questions
-        * jupyter lab is somewhat like an operating system (not a good term), but applications, terminal, everything cna be done through this interface
+        * jupyter lab is somewhat like an operating system (not a good term), but applications, terminal, everything can be done through this interface
         * menu bar, main area, status bar, left panel, right side panel
         * jupyterlab execute time
-            * you install this extension, and hten all of your cells show how long it took to run
+            * you install this extension, and then all of your cells show how long it took to run
         * cell magic or code is a hassle
 
     * extensions and plugins sound like they can be the same thing
@@ -131,7 +131,7 @@ Your name / GitHub ID / affiliation
     * recorded tutorials
     * recorded too 
     * APIs you need for documenting extensions are with NIX quality 
-        * Go through the jupyter extension documents, how do you define a comman,d how do you define a launcher, etc.
+        * Go through the jupyter extension documents, how do you define a command how do you define a launcher, etc.
         * commands are the under the hood way to expose to the user interfaec
         * Commands are also visible to LLMs
         * Commands are how you register behaviors to the user interface 
@@ -189,7 +189,7 @@ Your name / GitHub ID / affiliation
         * OpenLayers supports any custom projection
         * We can't do it now,  but there's polar projection
         * Lonboards doesn't support polar projections
-    * HOw do we support hte user getting the correct renderer for their projection?
+    * HOw do we support the user getting the correct renderer for their projection?
     * Supporting pluggable renderers
     * MapLibre, DeckGL, etc, what do the capabilities between the different renderers look like
     * One is going to lose support for geoparquet, etc., help user make an informed decisiion
@@ -198,7 +198,7 @@ Your name / GitHub ID / affiliation
         * multiple machines that work on a type
         * Multiple people can work on the same document
         * (such as Google Docs)
-        * Multiple users responding to comment thread, multiple users editting something that changes JSON file
+        * Multiple users responding to comment thread, multiple users editing something that changes JSON file
         * All powered by jupyter collaboration
     * Jupyter Real-Time Collaborative is another API for CRDT
 * Another stream is awareness: sharing stream across users
