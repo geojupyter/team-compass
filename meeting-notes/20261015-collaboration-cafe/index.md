@@ -61,7 +61,7 @@ Your name / GitHub ID / affiliation
         * Suggest exploring this tutorial (modules 1-3) before November
         * Recording: https://www.youtube.com/watch?v=z-KZ6CjZjbM
     * JupyterGIS development setup guide: <https://jupytergis.readthedocs.io/en/latest/contributor_guide/development_setup.html>
-    * 
+    * Jupyter extensions: use [Micromamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html) for package management
     * /
 * 
 * Daniel's notes
@@ -140,3 +140,72 @@ Your name / GitHub ID / affiliation
         * Commands are the behaviors that underly the buttons
         * Commands can be added to buttons
         * Draw features new layer
+* micromamba, conda
+    * for JupyterGIS, really recommend micromamba
+    * micromamba is just like a package manager 
+    * several options equivalent to micromamba
+    * solved many pitfalls
+    * general recommendation is pixi 
+    * micromamba can be a rust package, etc. 
+    * main advantage is that there are some system level dependencies
+    * e.g. GDAL 
+        * hard to install
+        * If you install a python library, it requires a very specific version of GDAL
+        * mamba, conda, etc. would allow you to install an isolated environment
+        * micromamba way simplifies all the problems
+        * allows you to get GDAL and the correct version
+        * shared libraries 
+* extension is high level building block
+    * plugin is frontend javascript object 
+    * sending a request to the server side
+    *  example logs if there is an API endpoint "hello"
+    *  we copied the extension, build it, test it
+    *  HelloRouteHandler is an example of extension
+* Widget can be both in python and javascript
+    * Widget says Hello, World
+    * p-tag is paragraph tag
+    * innerHTML is hello world
+* Commands
+    * Register a command / plugin activation plugin time
+    * Commands have IDs
+    * Use the colon to make pseudo-namespaces
+        * Jupyter uses this pattern
+    * Execute key and label key, label is what shows up
+    * New raster tile 
+    * Execute is what happens when you click that button
+    * HOw do you know when that command should be active
+    * You add a command, but no way to call it, so you add it ito the command palette 
+    * Or add it to the launcher with palette.add
+* JupyterGIS
+    * Extensions, widgets
+    * Symbology widget
+    * The thing that's rendering the map is OpenLayers, a JavaScript layer (old , since 2013 and slowed down)
+    * Large datasets 
+    * This one is less than a thousand points
+    * Soon as you load more than 50k, it will have poor performance
+    * lonboard is an example that implements as a jupyter widget
+    * we're talking about supporting deckGL 
+    * So many javascript renderers, different tradeoffs
+        * OpenLayers supports any custom projection
+        * We can't do it now,  but there's polar projection
+        * Lonboards doesn't support polar projections
+    * HOw do we support hte user getting the correct renderer for their projection?
+    * Supporting pluggable renderers
+    * MapLibre, DeckGL, etc, what do the capabilities between the different renderers look like
+    * One is going to lose support for geoparquet, etc., help user make an informed decisiion
+    * Conflict-free replicated data types (CRDT)
+        * Underpinning of all collaborative software that works correctly
+        * multiple machines that work on a type
+        * Multiple people can work on the same document
+        * (such as Google Docs)
+        * Multiple users responding to comment thread, multiple users editting something that changes JSON file
+        * All powered by jupyter collaboration
+    * Jupyter Real-Time Collaborative is another API for CRDT
+* Another stream is awareness: sharing stream across users
+    * example is cursor
+* When you create a vector layer, Geoparquet
+    * nice geoparquet that is very efficient for representing data
+    * gets turned into geojson (very inefficient)
+* pm tiles is the visualization optimized version of geoparquet
+* overviews, or tile pyramids
+* First priority: get clone of Matt's work, see if you can consume the events 
