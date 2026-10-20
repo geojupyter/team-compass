@@ -49,11 +49,11 @@ Your name / GitHub ID / affiliation
     * Monitor the many tools that practitioners use in their typical workflow and produce a provenance across tools to enable greater reproducibility, repeatability, and understanding when using multiple tools (some GUI-based).
     * Starting with prototyping forwarding JupyterGIS signals -> Jupyter Server event bus, and subscribing over websocket: https://github.com/geojupyter/prototype-jupytergis-eventfeed
     * Martin: https://github.com/notebook-link/metrics
-    * How do we 
+    * How do we
 * Maplibre viewer in https://github.com/geojupyter/jupytergis/pull/1875
     * deck.gl? :P Gains projection support in v10! Can be used in combination with MapLibre. IMO, we should have a deck.gl + MapLibre adapter -- adapters shouldn't be 1:1 with individual renderers.
         * COG support? https://developmentseed.org/deck.gl-raster/blog/multi-band-cog/
-            * https://github.com/geomatico/maplibre-cog-protocol , https://maplibre.org/maplibre-gl-js/docs/examples/add-a-cog-raster-source/ , 
+            * https://github.com/geomatico/maplibre-cog-protocol , https://maplibre.org/maplibre-gl-js/docs/examples/add-a-cog-raster-source/ ,
         * https://developmentseed.org/deck.gl-raster/examples/reprojection-explainer/
     * Need a way to add "warning" to layers -- we want to show e.g. "this layer won't display with this renderer" or "this layer is ephemeral because it's backed by an Xarray dataset in kernel memory"!
 * OpenEO:
